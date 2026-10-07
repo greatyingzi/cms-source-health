@@ -52,6 +52,7 @@ GitHub Actions 自动跑（见 `.github/workflows/check.yml`）：
 
 | 任务 | 频率 | 抽样 |
 |---|---|---|
+| **自动发现新候选** | 每次运行 | 从公开的 TVBox/接口汇总里捞新接口, 去重后追加 `candidates.txt` |
 | 快速筛 | 每 6 小时 | 每源 3 条 |
 | 深度筛 | 每天 03:00 UTC | 每源 8 条 |
 
@@ -59,11 +60,23 @@ GitHub Actions 自动跑（见 `.github/workflows/check.yml`）：
 也可以在 Actions 页面 `Run workflow` 手动触发，或本地跑：
 
 ```bash
+python3 scripts/discover.py               # 只挖新候选(追加 candidates.txt)
 python3 scripts/check_sources.py          # 快速筛
 python3 scripts/check_sources.py --deep   # 深度筛
 ```
 
 只依赖 Python 标准库，无需第三方包。
+
+### 候选池怎么长大
+
+`scripts/discover.py` 每次运行都会从公开渠道捞新接口写进 `candidates.txt`：
+
+1. **TVBox/影视仓接口配置**（raw JSON，里面的 `url`/`api` 字段就是采集接口；GitHub raw 走镜像兜底）
+2. **公开的"采集接口分享"文章**（HTML 直接正则捞地址）
+3. **多仓二级展开**（配置内容若是一串配置文件地址，再跟一层）
+
+去重按**规范化地址**（剥掉 `/at/xml`、`/from/xxx/`、查询串）——否则同一源的 XML 变体会被当成新源。
+每轮最多追加 40 条，避免候选池爆炸。
 
 ## 参与
 

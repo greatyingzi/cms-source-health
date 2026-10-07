@@ -29,6 +29,10 @@ jobs:
         with:
           python-version: "3.12"
 
+      # 先自动发现新候选(候选池的进料口: 不然体检只是在检查几个手工源)
+      - name: Auto-discover candidates
+        run: python3 scripts/discover.py
+
       # 深度筛只在 03:00 那次跑
       - name: Run checker
         id: check
@@ -61,8 +65,23 @@ jobs:
           title="所有候选源均不可用（海外视角）"
           n=$(gh issue list --state open --search "\"$title\" in:title" --json number --jq 'length')
           if [ "$n" = "0" ]; then
-            gh issue create --title "$title" \
+            gh issue create --title "$title" --assignee "${{ github.repository_owner }}" \
               --body "本次检查中全部候选源在海外出口均失败。请补充候选源（PR candidates.txt），或等待源站恢复。详见 sources.json。"
+          else
+            echo "issue already open"
+          fi
+
+      # 检查器自身出错也要能通知到人(不依赖 GitHub 的 Actions 邮件开关)
+      - name: Alert on checker failure
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          title="检查器运行失败"
+          n=$(gh issue list --state open --search "\"$title\" in:title" --json number --jq 'length')
+          if [ "$n" = "0" ]; then
+            gh issue create --title "$title" --assignee "${{ github.repository_owner }}" \
+              --body "本次 workflow 失败，请查看运行日志：${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
           else
             echo "issue already open"
           fi
