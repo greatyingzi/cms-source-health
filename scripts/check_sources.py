@@ -31,6 +31,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CANDIDATES = os.path.join(ROOT, "candidates.txt")
 OUT = os.path.join(ROOT, "sources.json")
 DEAD = os.path.join(ROOT, "dead.txt")
+BLOCKED = os.path.join(ROOT, "streams-blocked.txt")
 
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/122.0 Safari/537.36")
@@ -209,13 +210,21 @@ def main() -> int:
         json.dump(out, f, ensure_ascii=False, indent=2)
         f.write("\n")
 
-    dead = [s["api"] for s in results if (not s["overseas"]["api_ok"]) or s["overseas"]["rate"] <= 0]
+    # ★ 两级信号(实测教训: 索尼/最大 的 CDN 只拦机房 IP, 海外云出口拉流全 404, 但国内/普通出口完全可用):
+    #   dead.txt            = 接口本身不可用(api_ok=false)         → 强信号, 可直接剔除
+    #   streams-blocked.txt = 接口通但流在海外云出口全失败          → 弱信号, 只降权/待复测, 别据此判死
+    api_dead = [s["api"] for s in results if not s["overseas"]["api_ok"]]
+    stream_blocked = [s["api"] for s in results
+                      if s["overseas"]["api_ok"] and s["overseas"]["sampled"] > 0 and s["overseas"]["playable"] == 0]
     with open(DEAD, "w", encoding="utf-8") as f:
-        f.write("\n".join(dead) + ("\n" if dead else ""))
+        f.write("\n".join(api_dead) + ("\n" if api_dead else ""))
+    with open(BLOCKED, "w", encoding="utf-8") as f:
+        f.write("\n".join(stream_blocked) + ("\n" if stream_blocked else ""))
 
-    alive = len(results) - len(dead)
-    print(f"\nsources={len(results)} alive={alive} dead={len(dead)} → {os.path.relpath(OUT, ROOT)}")
-    # 全灭时用退出码提醒(workflow 里会开 issue)
+    alive = len(results) - len(api_dead)
+    print(f"\nsources={len(results)} 接口可用={alive} 接口失效={len(api_dead)} "
+          f"流被海外云拦={len(stream_blocked)} → {os.path.relpath(OUT, ROOT)}")
+    # 接口可用数为 0 才视为"全灭"(流被拦不算)
     return 0 if alive else 1
 
 
