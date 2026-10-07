@@ -1,0 +1,68 @@
+name: check-sources
+
+# 定时检查候选采集源健康度(海外视角), 结果提交回仓库。
+#   · 快速筛: 每 6 小时 (每源抽 3 条)
+#   · 深度筛: 每天 03:00 UTC (每源抽 8 条, 结果更可靠)
+#   · 也可在 Actions 页面手动触发
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write        # 提交 sources.json / dead.txt
+  issues: write          # 全灭时开 issue 提醒
+
+concurrency:
+  group: check-sources
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # 深度筛只在 03:00 那次跑
+      - name: Run checker
+        id: check
+        env:
+          DEEP: ${{ github.event.schedule == '0 3 * * *' && '1' || '0' }}
+        run: |
+          set +e
+          python3 scripts/check_sources.py
+          echo "rc=$?" >> "$GITHUB_OUTPUT"
+          exit 0
+
+      - name: Commit results
+        run: |
+          git config user.name  "source-checker[bot]"
+          git config user.email "source-checker@users.noreply.github.com"
+          git add sources.json dead.txt candidates.txt
+          if git diff --staged --quiet; then
+            echo "no changes"
+          else
+            git commit -m "chore: 源健康检查 $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi
+
+      # 一个可用的源都没有 → 开 issue(已存在同类 open issue 就不重复开)
+      - name: Alert when everything is dead
+        if: steps.check.outputs.rc == '1'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          title="所有候选源均不可用（海外视角）"
+          n=$(gh issue list --state open --search "\"$title\" in:title" --json number --jq 'length')
+          if [ "$n" = "0" ]; then
+            gh issue create --title "$title" \
+              --body "本次检查中全部候选源在海外出口均失败。请补充候选源（PR candidates.txt），或等待源站恢复。详见 sources.json。"
+          else
+            echo "issue already open"
+          fi
