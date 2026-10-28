@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": 1793190681,
+  "generated_at": 1793200292,
   "checker": "github-actions/overseas",
   "note": "overseas 视角: 用于筛选; 最终可用性请在使用方网络内复测",
   "sources": [
@@ -10,214 +10,49 @@
       "api": "https://suoniapi.com/api.php/provide/vod/from/snm3u8/",
       "first_seen": 1791387214,
       "last_ok": 1791387319,
-      "last_fail": 1793190668,
+      "last_fail": 1793200142,
       "overseas": {
         "api_ok": true,
         "sampled": 3,
         "playable": 0,
         "rate": 0.0,
         "reason": "all sampled streams dead",
-        "ms": 1813,
-        "checked_at": 1793190668
+        "ms": 3417,
+        "checked_at": 1793200142
       },
       "history": [
         {
-          "at": 1792494935,
+          "at": 1791387214,
+          "rate": 1.0,
+          "api_ok": true
+        },
+        {
+          "at": 1791387253,
           "rate": 0.0,
           "api_ok": true
         },
         {
-          "at": 1792514403,
+          "at": 1791387319,
+          "rate": 1.0,
+          "api_ok": true
+        },
+        {
+          "at": 1791413816,
           "rate": 0.0,
           "api_ok": true
         },
         {
-          "at": 1792531621,
+          "at": 1791414035,
           "rate": 0.0,
           "api_ok": true
         },
         {
-          "at": 1792555857,
+          "at": 1791414126,
           "rate": 0.0,
           "api_ok": true
         },
         {
-          "at": 1792570334,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792582290,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792601908,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792618118,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792642294,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792656803,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792668704,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792688272,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792704223,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792728915,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792743036,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792754464,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792774200,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792790097,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792814799,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792828149,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792838412,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792856539,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792873914,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792901320,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792915292,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792926294,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792943613,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792960770,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792987971,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793002983,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793018292,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793053858,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793075513,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793090017,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793102069,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793123340,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793138418,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793163823,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793178777,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793190668,
+          "at": 1793200142,
           "rate": 0.0,
           "api_ok": true
         }
@@ -229,216 +64,51 @@
       "api": "https://api.zuidapi.com/api.php/provide/vod",
       "first_seen": 1791387215,
       "last_ok": 1791387320,
-      "last_fail": 1793190668,
+      "last_fail": 1793200159,
       "overseas": {
-        "api_ok": true,
-        "sampled": 3,
+        "api_ok": false,
+        "sampled": 0,
         "playable": 0,
         "rate": 0.0,
-        "reason": "all sampled streams dead",
-        "ms": 1994,
-        "checked_at": 1793190668
+        "reason": "api http 0",
+        "ms": 20431,
+        "checked_at": 1793200159
       },
       "history": [
         {
-          "at": 1792494935,
+          "at": 1791387215,
+          "rate": 1.0,
+          "api_ok": true
+        },
+        {
+          "at": 1791387254,
           "rate": 0.0,
           "api_ok": true
         },
         {
-          "at": 1792514403,
+          "at": 1791387320,
+          "rate": 1.0,
+          "api_ok": true
+        },
+        {
+          "at": 1791413816,
           "rate": 0.0,
           "api_ok": true
         },
         {
-          "at": 1792531621,
+          "at": 1791414035,
           "rate": 0.0,
           "api_ok": true
         },
         {
-          "at": 1792555857,
+          "at": 1791414127,
           "rate": 0.0,
           "api_ok": true
         },
         {
-          "at": 1792570334,
+          "at": 1793200159,
           "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792582290,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792601908,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792618118,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792642294,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792656803,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792668704,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792688272,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792704223,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792728915,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792743036,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792754464,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792774200,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792790097,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792814799,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792828149,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792838412,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792856539,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792873914,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792901320,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792915292,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792926294,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792943613,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792960770,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792987971,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793002984,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793018292,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793053858,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793075513,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793090017,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793102070,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793123340,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793138418,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793163824,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793178777,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793190668,
-          "rate": 0.0,
-          "api_ok": true
+          "api_ok": false
         }
       ]
     },
@@ -447,7 +117,7 @@
       "name": "如意",
       "api": "https://cj.rycjapi.com/api.php/provide/vod",
       "first_seen": 1791387215,
-      "last_ok": 1793190676,
+      "last_ok": 1793200159,
       "last_fail": null,
       "overseas": {
         "api_ok": true,
@@ -455,207 +125,42 @@
         "playable": 3,
         "rate": 1.0,
         "reason": "",
-        "ms": 9871,
-        "checked_at": 1793190676
+        "ms": 12543,
+        "checked_at": 1793200159
       },
       "history": [
         {
-          "at": 1792494941,
+          "at": 1791387215,
           "rate": 1.0,
           "api_ok": true
         },
         {
-          "at": 1792514409,
+          "at": 1791387262,
           "rate": 1.0,
           "api_ok": true
         },
         {
-          "at": 1792531627,
-          "rate": 0.667,
+          "at": 1791387320,
+          "rate": 1.0,
           "api_ok": true
         },
         {
-          "at": 1792555862,
+          "at": 1791413822,
           "rate": 0.0,
           "api_ok": true
         },
         {
-          "at": 1792570345,
-          "rate": 0.625,
-          "api_ok": true
-        },
-        {
-          "at": 1792582294,
-          "rate": 0.667,
-          "api_ok": true
-        },
-        {
-          "at": 1792601915,
-          "rate": 1.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792618123,
-          "rate": 0.333,
-          "api_ok": true
-        },
-        {
-          "at": 1792642301,
-          "rate": 0.333,
-          "api_ok": true
-        },
-        {
-          "at": 1792656815,
-          "rate": 0.375,
-          "api_ok": true
-        },
-        {
-          "at": 1792668712,
-          "rate": 0.667,
-          "api_ok": true
-        },
-        {
-          "at": 1792688279,
-          "rate": 1.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792704229,
-          "rate": 0.333,
-          "api_ok": true
-        },
-        {
-          "at": 1792728920,
-          "rate": 0.667,
-          "api_ok": true
-        },
-        {
-          "at": 1792743050,
-          "rate": 0.375,
-          "api_ok": true
-        },
-        {
-          "at": 1792754473,
-          "rate": 0.667,
-          "api_ok": true
-        },
-        {
-          "at": 1792774206,
-          "rate": 1.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792790104,
-          "rate": 0.333,
-          "api_ok": true
-        },
-        {
-          "at": 1792814804,
-          "rate": 0.333,
-          "api_ok": true
-        },
-        {
-          "at": 1792828154,
-          "rate": 0.125,
-          "api_ok": true
-        },
-        {
-          "at": 1792838419,
-          "rate": 1.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792856542,
-          "rate": 0.667,
-          "api_ok": true
-        },
-        {
-          "at": 1792873920,
-          "rate": 0.333,
-          "api_ok": true
-        },
-        {
-          "at": 1792901325,
-          "rate": 1.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792915304,
-          "rate": 0.25,
-          "api_ok": true
-        },
-        {
-          "at": 1792926297,
+          "at": 1791414041,
           "rate": 0.0,
           "api_ok": true
         },
         {
-          "at": 1792943621,
-          "rate": 1.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792960776,
-          "rate": 0.667,
-          "api_ok": true
-        },
-        {
-          "at": 1792987977,
-          "rate": 1.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793002995,
-          "rate": 0.125,
-          "api_ok": true
-        },
-        {
-          "at": 1793018297,
-          "rate": 1.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793053865,
-          "rate": 0.333,
-          "api_ok": true
-        },
-        {
-          "at": 1793075517,
+          "at": 1791414133,
           "rate": 0.0,
           "api_ok": true
         },
         {
-          "at": 1793090029,
-          "rate": 0.75,
-          "api_ok": true
-        },
-        {
-          "at": 1793102074,
-          "rate": 0.667,
-          "api_ok": true
-        },
-        {
-          "at": 1793123346,
-          "rate": 0.667,
-          "api_ok": true
-        },
-        {
-          "at": 1793138437,
-          "rate": 0.667,
-          "api_ok": true
-        },
-        {
-          "at": 1793163828,
-          "rate": 0.667,
-          "api_ok": true
-        },
-        {
-          "at": 1793178787,
-          "rate": 0.5,
-          "api_ok": true
-        },
-        {
-          "at": 1793190676,
+          "at": 1793200159,
           "rate": 1.0,
           "api_ok": true
         }
@@ -666,7 +171,7 @@
       "name": "魔都",
       "api": "https://caiji.moduapi.cc/api.php/provide/vod",
       "first_seen": 1791387215,
-      "last_ok": 1793190676,
+      "last_ok": 1793200159,
       "last_fail": null,
       "overseas": {
         "api_ok": true,
@@ -674,207 +179,42 @@
         "playable": 3,
         "rate": 1.0,
         "reason": "",
-        "ms": 5293,
-        "checked_at": 1793190676
+        "ms": 19586,
+        "checked_at": 1793200159
       },
       "history": [
         {
-          "at": 1792494941,
+          "at": 1791387215,
           "rate": 1.0,
           "api_ok": true
         },
         {
-          "at": 1792514409,
+          "at": 1791387262,
           "rate": 1.0,
           "api_ok": true
         },
         {
-          "at": 1792531627,
+          "at": 1791387320,
           "rate": 1.0,
           "api_ok": true
         },
         {
-          "at": 1792555862,
+          "at": 1791413822,
           "rate": 1.0,
           "api_ok": true
         },
         {
-          "at": 1792570345,
+          "at": 1791414041,
           "rate": 1.0,
           "api_ok": true
         },
         {
-          "at": 1792582295,
+          "at": 1791414133,
           "rate": 1.0,
           "api_ok": true
         },
         {
-          "at": 1792601935,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792618123,
-          "rate": 1.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792642301,
-          "rate": 0.667,
-          "api_ok": true
-        },
-        {
-          "at": 1792656815,
-          "rate": 0.875,
-          "api_ok": true
-        },
-        {
-          "at": 1792668712,
-          "rate": 0.667,
-          "api_ok": true
-        },
-        {
-          "at": 1792688279,
-          "rate": 1.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792704229,
-          "rate": 1.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792728920,
-          "rate": 1.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792743050,
-          "rate": 0.75,
-          "api_ok": true
-        },
-        {
-          "at": 1792754473,
-          "rate": 1.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792774206,
-          "rate": 1.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792790104,
-          "rate": 1.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792814804,
-          "rate": 1.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792828154,
-          "rate": 1.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792838419,
-          "rate": 1.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792856542,
-          "rate": 1.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792873920,
-          "rate": 1.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792901325,
-          "rate": 1.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792915304,
-          "rate": 1.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792926298,
-          "rate": 1.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792943621,
-          "rate": 1.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792960776,
-          "rate": 1.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792987977,
-          "rate": 1.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793002995,
-          "rate": 1.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793018297,
-          "rate": 1.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793053865,
-          "rate": 1.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793075517,
-          "rate": 1.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793090029,
-          "rate": 1.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793102074,
-          "rate": 1.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793123346,
-          "rate": 1.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793138437,
-          "rate": 1.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793163828,
-          "rate": 1.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793178787,
-          "rate": 1.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793190676,
+          "at": 1793200159,
           "rate": 1.0,
           "api_ok": true
         }
@@ -885,217 +225,52 @@
       "name": "暴风",
       "api": "https://bfzyapi.com/api.php/provide/vod",
       "first_seen": 1791387215,
-      "last_ok": 1793190676,
-      "last_fail": null,
+      "last_ok": 1791414044,
+      "last_fail": 1793200159,
       "overseas": {
-        "api_ok": true,
-        "sampled": 3,
-        "playable": 1,
-        "rate": 0.333,
-        "reason": "",
-        "ms": 5153,
-        "checked_at": 1793190676
+        "api_ok": false,
+        "sampled": 0,
+        "playable": 0,
+        "rate": 0.0,
+        "reason": "api http 0",
+        "ms": 20570,
+        "checked_at": 1793200159
       },
       "history": [
         {
-          "at": 1792494941,
-          "rate": 0.667,
-          "api_ok": true
-        },
-        {
-          "at": 1792514412,
-          "rate": 1.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792531627,
-          "rate": 0.667,
-          "api_ok": true
-        },
-        {
-          "at": 1792555866,
-          "rate": 1.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792570350,
-          "rate": 0.75,
-          "api_ok": true
-        },
-        {
-          "at": 1792582297,
+          "at": 1791387215,
           "rate": 0.333,
           "api_ok": true
         },
         {
-          "at": 1792601935,
+          "at": 1791387262,
           "rate": 0.333,
           "api_ok": true
         },
         {
-          "at": 1792618123,
+          "at": 1791387320,
           "rate": 0.333,
           "api_ok": true
         },
         {
-          "at": 1792642305,
-          "rate": 0.667,
-          "api_ok": true
-        },
-        {
-          "at": 1792656839,
-          "rate": 0.375,
-          "api_ok": true
-        },
-        {
-          "at": 1792668712,
-          "rate": 0.333,
-          "api_ok": true
-        },
-        {
-          "at": 1792688281,
-          "rate": 1.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792704229,
-          "rate": 0.333,
-          "api_ok": true
-        },
-        {
-          "at": 1792728921,
-          "rate": 0.333,
-          "api_ok": true
-        },
-        {
-          "at": 1792743056,
-          "rate": 0.75,
-          "api_ok": true
-        },
-        {
-          "at": 1792754473,
-          "rate": 0.333,
-          "api_ok": true
-        },
-        {
-          "at": 1792774206,
-          "rate": 0.333,
-          "api_ok": true
-        },
-        {
-          "at": 1792790104,
+          "at": 1791413822,
           "rate": 0.0,
           "api_ok": true
         },
         {
-          "at": 1792814806,
+          "at": 1791414044,
           "rate": 0.667,
           "api_ok": true
         },
         {
-          "at": 1792828161,
-          "rate": 0.625,
-          "api_ok": true
-        },
-        {
-          "at": 1792838419,
-          "rate": 0.333,
-          "api_ok": true
-        },
-        {
-          "at": 1792856546,
-          "rate": 1.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792873920,
-          "rate": 0.667,
-          "api_ok": true
-        },
-        {
-          "at": 1792901325,
-          "rate": 0.333,
-          "api_ok": true
-        },
-        {
-          "at": 1792915304,
-          "rate": 0.25,
-          "api_ok": true
-        },
-        {
-          "at": 1792926318,
-          "rate": 0.333,
-          "api_ok": true
-        },
-        {
-          "at": 1792943643,
-          "rate": 0.667,
-          "api_ok": true
-        },
-        {
-          "at": 1792960782,
-          "rate": 0.667,
-          "api_ok": true
-        },
-        {
-          "at": 1792987978,
-          "rate": 0.667,
-          "api_ok": true
-        },
-        {
-          "at": 1793003010,
-          "rate": 0.375,
-          "api_ok": true
-        },
-        {
-          "at": 1793018298,
-          "rate": 0.667,
-          "api_ok": true
-        },
-        {
-          "at": 1793053865,
+          "at": 1791414133,
           "rate": 0.0,
           "api_ok": true
         },
         {
-          "at": 1793075523,
-          "rate": 1.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793090038,
-          "rate": 0.75,
-          "api_ok": true
-        },
-        {
-          "at": 1793102074,
-          "rate": 0.333,
-          "api_ok": true
-        },
-        {
-          "at": 1793123353,
-          "rate": 1.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793138437,
-          "rate": 1.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793163832,
-          "rate": 1.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793178793,
-          "rate": 0.25,
-          "api_ok": true
-        },
-        {
-          "at": 1793190676,
-          "rate": 0.333,
-          "api_ok": true
+          "at": 1793200159,
+          "rate": 0.0,
+          "api_ok": false
         }
       ]
     },
@@ -1105,216 +280,51 @@
       "api": "https://cj.lziapi.com/api.php/provide/vod",
       "first_seen": 1791387215,
       "last_ok": null,
-      "last_fail": 1793190676,
+      "last_fail": 1793200159,
       "overseas": {
-        "api_ok": true,
-        "sampled": 3,
+        "api_ok": false,
+        "sampled": 0,
         "playable": 0,
         "rate": 0.0,
-        "reason": "all sampled streams dead",
-        "ms": 3847,
-        "checked_at": 1793190676
+        "reason": "api http 0",
+        "ms": 20392,
+        "checked_at": 1793200159
       },
       "history": [
         {
-          "at": 1792494941,
+          "at": 1791387215,
           "rate": 0.0,
           "api_ok": true
         },
         {
-          "at": 1792514412,
+          "at": 1791387262,
           "rate": 0.0,
           "api_ok": true
         },
         {
-          "at": 1792531627,
+          "at": 1791387320,
           "rate": 0.0,
           "api_ok": true
         },
         {
-          "at": 1792555866,
+          "at": 1791413822,
           "rate": 0.0,
           "api_ok": true
         },
         {
-          "at": 1792570350,
+          "at": 1791414044,
           "rate": 0.0,
           "api_ok": true
         },
         {
-          "at": 1792582297,
+          "at": 1791414133,
           "rate": 0.0,
           "api_ok": true
         },
         {
-          "at": 1792601935,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792618123,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792642305,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792656839,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792668712,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792688281,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792704229,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792728921,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792743056,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792754473,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792774206,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792790104,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792814806,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792828161,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792838419,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792856546,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792873920,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792901325,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792915304,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792926318,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792943643,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792960782,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792987978,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793003010,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793018298,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793053865,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793075532,
+          "at": 1793200159,
           "rate": 0.0,
           "api_ok": false
-        },
-        {
-          "at": 1793090038,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793102074,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793123353,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793138437,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793163832,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793178793,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793190676,
-          "rate": 0.0,
-          "api_ok": true
         }
       ]
     },
@@ -1324,214 +334,49 @@
       "api": "https://api.ffzyapi.com/api.php/provide/vod",
       "first_seen": 1791387215,
       "last_ok": null,
-      "last_fail": 1793190676,
+      "last_fail": 1793200159,
       "overseas": {
         "api_ok": true,
         "sampled": 3,
         "playable": 0,
         "rate": 0.0,
         "reason": "all sampled streams dead",
-        "ms": 7127,
-        "checked_at": 1793190676
+        "ms": 6261,
+        "checked_at": 1793200159
       },
       "history": [
         {
-          "at": 1792494941,
+          "at": 1791387215,
           "rate": 0.0,
           "api_ok": true
         },
         {
-          "at": 1792514412,
+          "at": 1791387262,
           "rate": 0.0,
           "api_ok": true
         },
         {
-          "at": 1792531627,
+          "at": 1791387320,
           "rate": 0.0,
           "api_ok": true
         },
         {
-          "at": 1792555866,
+          "at": 1791413823,
           "rate": 0.0,
           "api_ok": true
         },
         {
-          "at": 1792570350,
+          "at": 1791414044,
           "rate": 0.0,
           "api_ok": true
         },
         {
-          "at": 1792582297,
+          "at": 1791414133,
           "rate": 0.0,
           "api_ok": true
         },
         {
-          "at": 1792601935,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792618124,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792642305,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792656839,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792668712,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792688281,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792704230,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792728921,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792743056,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792754473,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792774206,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792790104,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792814806,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792828161,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792838419,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792856546,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792873920,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792901327,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792915307,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792926318,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792943643,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792960782,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792987978,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793003010,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793018298,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793053865,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793075532,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793090038,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793102074,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793123353,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793138437,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793163832,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793178793,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793190676,
+          "at": 1793200159,
           "rate": 0.0,
           "api_ok": true
         }
@@ -1543,214 +388,49 @@
       "api": "https://caiji.dyttzyapi.com/api.php/provide/vod",
       "first_seen": 1791387215,
       "last_ok": null,
-      "last_fail": 1793190676,
+      "last_fail": 1793200159,
       "overseas": {
         "api_ok": true,
         "sampled": 3,
         "playable": 0,
         "rate": 0.0,
         "reason": "all sampled streams dead",
-        "ms": 7374,
-        "checked_at": 1793190676
+        "ms": 6600,
+        "checked_at": 1793200159
       },
       "history": [
         {
-          "at": 1792494941,
+          "at": 1791387215,
           "rate": 0.0,
           "api_ok": true
         },
         {
-          "at": 1792514412,
+          "at": 1791387262,
           "rate": 0.0,
           "api_ok": true
         },
         {
-          "at": 1792531627,
+          "at": 1791387320,
           "rate": 0.0,
           "api_ok": true
         },
         {
-          "at": 1792555866,
+          "at": 1791413823,
           "rate": 0.0,
           "api_ok": true
         },
         {
-          "at": 1792570350,
+          "at": 1791414044,
           "rate": 0.0,
           "api_ok": true
         },
         {
-          "at": 1792582297,
+          "at": 1791414133,
           "rate": 0.0,
           "api_ok": true
         },
         {
-          "at": 1792601935,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792618124,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792642305,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792656839,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792668712,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792688281,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792704230,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792728922,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792743056,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792754473,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792774206,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792790104,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792814806,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792828163,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792838419,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792856546,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792873920,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792901327,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792915307,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792926318,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792943643,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792960782,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792987978,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793003010,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793018298,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793053865,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793075532,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793090038,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793102074,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793123353,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793138437,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793163832,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793178793,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793190676,
+          "at": 1793200159,
           "rate": 0.0,
           "api_ok": true
         }
@@ -1762,214 +442,49 @@
       "api": "https://api.wwzy.tv/api.php/provide/vod",
       "first_seen": 1791387215,
       "last_ok": null,
-      "last_fail": 1793190676,
+      "last_fail": 1793200182,
       "overseas": {
         "api_ok": false,
         "sampled": 0,
         "playable": 0,
         "rate": 0.0,
-        "reason": "api not json",
-        "ms": 567,
-        "checked_at": 1793190676
+        "reason": "api http 0",
+        "ms": 30316,
+        "checked_at": 1793200182
       },
       "history": [
         {
-          "at": 1792494941,
+          "at": 1791387215,
           "rate": 0.0,
           "api_ok": false
         },
         {
-          "at": 1792514412,
+          "at": 1791387262,
           "rate": 0.0,
           "api_ok": false
         },
         {
-          "at": 1792531627,
+          "at": 1791387320,
           "rate": 0.0,
           "api_ok": false
         },
         {
-          "at": 1792555866,
+          "at": 1791413823,
           "rate": 0.0,
           "api_ok": false
         },
         {
-          "at": 1792570350,
+          "at": 1791414044,
           "rate": 0.0,
           "api_ok": false
         },
         {
-          "at": 1792582297,
+          "at": 1791414133,
           "rate": 0.0,
           "api_ok": false
         },
         {
-          "at": 1792601935,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792618124,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792642305,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792656839,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792668712,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792688281,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792704230,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792728922,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792743056,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792754473,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792774206,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792790104,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792814806,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792828163,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792838419,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792856546,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792873920,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792901327,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792915307,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792926318,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792943643,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792960782,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792987978,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793003010,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793018298,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793053865,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793075532,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793090038,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793102074,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793123353,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793138437,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793163832,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793178793,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793190676,
+          "at": 1793200182,
           "rate": 0.0,
           "api_ok": false
         }
@@ -1981,214 +496,49 @@
       "api": "https://api.1080zyku.com/inc/api.php/provide/vod",
       "first_seen": 1791387215,
       "last_ok": null,
-      "last_fail": 1793190676,
+      "last_fail": 1793200182,
       "overseas": {
         "api_ok": false,
         "sampled": 0,
         "playable": 0,
         "rate": 0.0,
         "reason": "api not json",
-        "ms": 685,
-        "checked_at": 1793190676
+        "ms": 1974,
+        "checked_at": 1793200182
       },
       "history": [
         {
-          "at": 1792494941,
+          "at": 1791387215,
           "rate": 0.0,
           "api_ok": false
         },
         {
-          "at": 1792514412,
+          "at": 1791387262,
           "rate": 0.0,
           "api_ok": false
         },
         {
-          "at": 1792531627,
+          "at": 1791387320,
           "rate": 0.0,
           "api_ok": false
         },
         {
-          "at": 1792555866,
+          "at": 1791413823,
           "rate": 0.0,
           "api_ok": false
         },
         {
-          "at": 1792570350,
+          "at": 1791414044,
           "rate": 0.0,
           "api_ok": false
         },
         {
-          "at": 1792582297,
+          "at": 1791414133,
           "rate": 0.0,
           "api_ok": false
         },
         {
-          "at": 1792601935,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792618124,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792642305,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792656839,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792668712,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792688281,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792704230,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792728922,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792743056,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792754473,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792774206,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792790104,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792814806,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792828163,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792838419,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792856546,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792873920,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792901327,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792915307,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792926318,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792943643,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792960782,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792987978,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793003010,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793018298,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793053865,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793075532,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793090038,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793102074,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793123353,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793138437,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793163832,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793178793,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793190676,
+          "at": 1793200182,
           "rate": 0.0,
           "api_ok": false
         }
@@ -2200,214 +550,49 @@
       "api": "https://collect.wolongzyw.com/api.php/provide/vod",
       "first_seen": 1791387215,
       "last_ok": null,
-      "last_fail": 1793190676,
+      "last_fail": 1793200182,
       "overseas": {
         "api_ok": false,
         "sampled": 0,
         "playable": 0,
         "rate": 0.0,
         "reason": "api not json",
-        "ms": 497,
-        "checked_at": 1793190676
+        "ms": 1661,
+        "checked_at": 1793200182
       },
       "history": [
         {
-          "at": 1792494941,
+          "at": 1791387215,
           "rate": 0.0,
           "api_ok": false
         },
         {
-          "at": 1792514412,
+          "at": 1791387262,
           "rate": 0.0,
           "api_ok": false
         },
         {
-          "at": 1792531627,
+          "at": 1791387320,
           "rate": 0.0,
           "api_ok": false
         },
         {
-          "at": 1792555866,
+          "at": 1791413823,
           "rate": 0.0,
           "api_ok": false
         },
         {
-          "at": 1792570350,
+          "at": 1791414044,
           "rate": 0.0,
           "api_ok": false
         },
         {
-          "at": 1792582297,
+          "at": 1791414133,
           "rate": 0.0,
           "api_ok": false
         },
         {
-          "at": 1792601935,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792618124,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792642305,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792656839,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792668712,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792688281,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792704230,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792728922,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792743056,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792754473,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792774206,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792790104,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792814806,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792828163,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792838419,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792856546,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792873920,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792901327,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792915307,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792926318,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792943643,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792960782,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792987978,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793003010,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793018298,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793053865,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793075532,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793090038,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793102074,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793123353,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793138437,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793163832,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793178793,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793190676,
+          "at": 1793200182,
           "rate": 0.0,
           "api_ok": false
         }
@@ -2418,217 +603,27 @@
       "name": "自动发现·api.apibdzy.com",
       "api": "https://api.apibdzy.com/api.php/provide/vod",
       "first_seen": 1791414134,
-      "last_ok": 1792728922,
-      "last_fail": 1793190676,
+      "last_ok": null,
+      "last_fail": 1793200182,
       "overseas": {
-        "api_ok": true,
-        "sampled": 3,
+        "api_ok": false,
+        "sampled": 0,
         "playable": 0,
         "rate": 0.0,
-        "reason": "all sampled streams dead",
-        "ms": 4133,
-        "checked_at": 1793190676
+        "reason": "api http 0",
+        "ms": 20390,
+        "checked_at": 1793200182
       },
       "history": [
         {
-          "at": 1792494941,
+          "at": 1791414134,
           "rate": 0.0,
           "api_ok": true
         },
         {
-          "at": 1792514412,
+          "at": 1793200182,
           "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792531627,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792555866,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792570350,
-          "rate": 1.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792582297,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792601935,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792618124,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792642305,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792656839,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792668712,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792688281,
-          "rate": 1.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792704230,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792728922,
-          "rate": 1.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792743056,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792754473,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792774207,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792790104,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792814806,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792828163,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792838419,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792856546,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792873921,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792901327,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792915307,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792926318,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792943643,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792960782,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792987978,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793003010,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793018298,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793053865,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793075532,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793090038,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793102075,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793123353,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793138437,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793163832,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793178793,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793190676,
-          "rate": 0.0,
-          "api_ok": true
+          "api_ok": false
         }
       ]
     },
@@ -2638,216 +633,26 @@
       "api": "https://api.ukuapi.com/api.php/provide/vod",
       "first_seen": 1791414134,
       "last_ok": null,
-      "last_fail": 1793190676,
+      "last_fail": 1793200182,
       "overseas": {
-        "api_ok": true,
-        "sampled": 3,
+        "api_ok": false,
+        "sampled": 0,
         "playable": 0,
         "rate": 0.0,
-        "reason": "all sampled streams dead",
-        "ms": 4486,
-        "checked_at": 1793190676
+        "reason": "api http 0",
+        "ms": 379,
+        "checked_at": 1793200182
       },
       "history": [
         {
-          "at": 1792494942,
+          "at": 1791414134,
           "rate": 0.0,
           "api_ok": true
         },
         {
-          "at": 1792514412,
+          "at": 1793200182,
           "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792531628,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792555886,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792570390,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792582298,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792601957,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792618124,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792642305,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792656843,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792668753,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792688281,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792704251,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792728923,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792743074,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792754473,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792774207,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792790104,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792814808,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792828163,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792838420,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792856546,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792873921,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792901328,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792915309,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792926318,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792943643,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792960782,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792987979,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793003010,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793018299,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793053866,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793075532,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793090038,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793102076,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793123353,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793138437,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793163832,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793178793,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793190676,
-          "rate": 0.0,
-          "api_ok": true
+          "api_ok": false
         }
       ]
     },
@@ -2857,214 +662,24 @@
       "api": "https://www.qilinzyz.com/api.php/provide/vod",
       "first_seen": 1791414134,
       "last_ok": null,
-      "last_fail": 1793190676,
+      "last_fail": 1793200182,
       "overseas": {
         "api_ok": false,
         "sampled": 0,
         "playable": 0,
         "rate": 0.0,
         "reason": "api not json",
-        "ms": 396,
-        "checked_at": 1793190676
+        "ms": 6618,
+        "checked_at": 1793200182
       },
       "history": [
         {
-          "at": 1792494942,
+          "at": 1791414134,
           "rate": 0.0,
           "api_ok": false
         },
         {
-          "at": 1792514412,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792531628,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792555886,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792570390,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792582298,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792601957,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792618124,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792642305,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792656843,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792668753,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792688281,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792704251,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792728923,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792743074,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792754473,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792774207,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792790104,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792814808,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792828163,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792838420,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792856546,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792873921,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792901328,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792915309,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792926318,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792943643,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792960782,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792987979,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793003010,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793018299,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793053866,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793075532,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793090038,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793102076,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793123353,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793138437,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793163832,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793178793,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793190676,
+          "at": 1793200182,
           "rate": 0.0,
           "api_ok": false
         }
@@ -3076,214 +691,24 @@
       "api": "http://api.fqzy.cc/api.php/provide/vod",
       "first_seen": 1791414135,
       "last_ok": null,
-      "last_fail": 1793190676,
+      "last_fail": 1793200182,
       "overseas": {
         "api_ok": false,
         "sampled": 0,
         "playable": 0,
         "rate": 0.0,
         "reason": "api http 0",
-        "ms": 3223,
-        "checked_at": 1793190676
+        "ms": 21263,
+        "checked_at": 1793200182
       },
       "history": [
         {
-          "at": 1792494961,
+          "at": 1791414135,
           "rate": 0.0,
           "api_ok": false
         },
         {
-          "at": 1792514412,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792531647,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792555886,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792570390,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792582305,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792601957,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792618126,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792642318,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792656843,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792668753,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792688281,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792704251,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792728926,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792743074,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792754473,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792774210,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792790108,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792814808,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792828163,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792838420,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792856546,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792873921,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792901335,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792915309,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792926318,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792943643,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792960782,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792987983,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793003010,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793018302,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793053867,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793075532,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793090041,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793102076,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793123353,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793138437,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793163832,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793178793,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793190676,
+          "at": 1793200182,
           "rate": 0.0,
           "api_ok": false
         }
@@ -3295,214 +720,24 @@
       "api": "https://www.hongniuzy1.com/inc/api.php",
       "first_seen": 1791414135,
       "last_ok": null,
-      "last_fail": 1793190676,
+      "last_fail": 1793200182,
       "overseas": {
         "api_ok": false,
         "sampled": 0,
         "playable": 0,
         "rate": 0.0,
         "reason": "api http 0",
-        "ms": 162,
-        "checked_at": 1793190676
+        "ms": 828,
+        "checked_at": 1793200182
       },
       "history": [
         {
-          "at": 1792494961,
+          "at": 1791414135,
           "rate": 0.0,
           "api_ok": false
         },
         {
-          "at": 1792514412,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792531647,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792555886,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792570390,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792582305,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792601957,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792618126,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792642318,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792656843,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792668753,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792688281,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792704251,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792728926,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792743074,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792754473,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792774210,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792790108,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792814808,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792828177,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792838437,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792856546,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792873921,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792901335,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792915309,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792926318,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792943643,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792960782,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792987983,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793003010,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793018302,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793053867,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793075532,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793090041,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793102076,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793123353,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793138437,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793163832,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793178793,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793190676,
+          "at": 1793200182,
           "rate": 0.0,
           "api_ok": false
         }
@@ -3514,214 +749,24 @@
       "api": "https://api.wujinapi.com/api.php/provide/vod",
       "first_seen": 1791414135,
       "last_ok": null,
-      "last_fail": 1793190677,
+      "last_fail": 1793200182,
       "overseas": {
         "api_ok": true,
         "sampled": 3,
         "playable": 0,
         "rate": 0.0,
         "reason": "all sampled streams dead",
-        "ms": 1903,
-        "checked_at": 1793190677
+        "ms": 3441,
+        "checked_at": 1793200182
       },
       "history": [
         {
-          "at": 1792494961,
+          "at": 1791414135,
           "rate": 0.0,
           "api_ok": true
         },
         {
-          "at": 1792514412,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792531647,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792555886,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792570390,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792582305,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792601957,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792618126,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792642318,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792656843,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792668753,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792688281,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792704251,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792728926,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792743074,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792754473,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792774210,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792790108,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792814808,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792828177,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792838437,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792856546,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792873922,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792901335,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792915309,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792926318,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792943643,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792960782,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792987983,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793003010,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793018302,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793053867,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793075532,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793090041,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793102076,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793123353,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793138437,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793163832,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793178793,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793190677,
+          "at": 1793200182,
           "rate": 0.0,
           "api_ok": true
         }
@@ -3733,214 +778,24 @@
       "api": "http://www.kuaibozy.com/api.php/provide/vod",
       "first_seen": 1791414135,
       "last_ok": null,
-      "last_fail": 1793190677,
+      "last_fail": 1793200190,
       "overseas": {
         "api_ok": false,
         "sampled": 0,
         "playable": 0,
         "rate": 0.0,
-        "reason": "api not json",
-        "ms": 204,
-        "checked_at": 1793190677
+        "reason": "api http 0",
+        "ms": 30415,
+        "checked_at": 1793200190
       },
       "history": [
         {
-          "at": 1792494961,
+          "at": 1791414135,
           "rate": 0.0,
           "api_ok": false
         },
         {
-          "at": 1792514412,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792531647,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792555886,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792570390,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792582305,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792601957,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792618126,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792642318,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792656843,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792668753,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792688282,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792704251,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792728926,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792743074,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792754473,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792774210,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792790108,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792814808,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792828177,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792838437,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792856546,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792873922,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792901335,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792915309,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792926318,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792943643,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792960782,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792987983,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793003010,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793018302,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793053867,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793075532,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793090041,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793102076,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793123353,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793138437,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793163832,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793178793,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793190677,
+          "at": 1793200190,
           "rate": 0.0,
           "api_ok": false
         }
@@ -3952,214 +807,24 @@
       "api": "http://zy.yilans.net:8090/api.php/provide/vod",
       "first_seen": 1791414135,
       "last_ok": null,
-      "last_fail": 1793190677,
+      "last_fail": 1793200190,
       "overseas": {
         "api_ok": false,
         "sampled": 0,
         "playable": 0,
         "rate": 0.0,
         "reason": "api http 0",
-        "ms": 50,
-        "checked_at": 1793190677
+        "ms": 1,
+        "checked_at": 1793200190
       },
       "history": [
         {
-          "at": 1792494961,
+          "at": 1791414135,
           "rate": 0.0,
           "api_ok": false
         },
         {
-          "at": 1792514412,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792531647,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792555886,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792570390,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792582305,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792601957,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792618126,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792642318,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792656843,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792668753,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792688282,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792704251,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792728926,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792743074,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792754473,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792774210,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792790108,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792814808,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792828177,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792838437,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792856546,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792873922,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792901335,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792915309,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792926318,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792943643,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792960782,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792987983,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793003010,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793018302,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793053867,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793075532,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793090041,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793102076,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793123353,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793138437,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793163832,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793178793,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793190677,
+          "at": 1793200190,
           "rate": 0.0,
           "api_ok": false
         }
@@ -4171,214 +836,24 @@
       "api": "http://vipmv.cc/api.php/provide/vod",
       "first_seen": 1791414136,
       "last_ok": null,
-      "last_fail": 1793190677,
+      "last_fail": 1793200190,
       "overseas": {
         "api_ok": false,
         "sampled": 0,
         "playable": 0,
         "rate": 0.0,
-        "reason": "api http 403",
-        "ms": 940,
-        "checked_at": 1793190677
+        "reason": "api not json",
+        "ms": 2944,
+        "checked_at": 1793200190
       },
       "history": [
         {
-          "at": 1792494961,
+          "at": 1791414136,
           "rate": 0.0,
           "api_ok": false
         },
         {
-          "at": 1792514412,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792531647,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792555886,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792570390,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792582305,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792601957,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792618126,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792642318,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792656843,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792668753,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792688282,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792704251,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792728926,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792743074,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792754473,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792774210,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792790108,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792814808,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792828177,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792838437,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792856546,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792873922,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792901335,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792915309,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792926318,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792943643,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792960782,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792987983,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793003010,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793018302,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793053867,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793075532,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793090041,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793102076,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793123353,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793138437,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793163832,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793178793,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793190677,
+          "at": 1793200190,
           "rate": 0.0,
           "api_ok": false
         }
@@ -4390,214 +865,24 @@
       "api": "https://demo.if101.tv/api.php/provide/vod",
       "first_seen": 1791414136,
       "last_ok": null,
-      "last_fail": 1793190677,
+      "last_fail": 1793200190,
       "overseas": {
         "api_ok": false,
         "sampled": 0,
         "playable": 0,
         "rate": 0.0,
         "reason": "api http 0",
-        "ms": 16,
-        "checked_at": 1793190677
+        "ms": 407,
+        "checked_at": 1793200190
       },
       "history": [
         {
-          "at": 1792494961,
+          "at": 1791414136,
           "rate": 0.0,
           "api_ok": false
         },
         {
-          "at": 1792514412,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792531647,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792555886,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792570390,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792582305,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792601957,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792618126,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792642318,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792656843,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792668753,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792688282,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792704251,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792728926,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792743074,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792754473,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792774210,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792790108,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792814808,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792828177,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792838437,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792856546,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792873922,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792901335,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792915309,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792926318,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792943643,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792960782,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792987983,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793003010,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793018302,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793053867,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793075532,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793090041,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793102076,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793123353,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793138437,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793163832,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793178793,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793190677,
+          "at": 1793200190,
           "rate": 0.0,
           "api_ok": false
         }
@@ -4609,214 +894,24 @@
       "api": "https://zy.renrenmi.cc/api.php/provide/vod",
       "first_seen": 1791414136,
       "last_ok": null,
-      "last_fail": 1793190677,
+      "last_fail": 1793200190,
       "overseas": {
         "api_ok": false,
         "sampled": 0,
         "playable": 0,
         "rate": 0.0,
         "reason": "api http 0",
-        "ms": 103,
-        "checked_at": 1793190677
+        "ms": 20449,
+        "checked_at": 1793200190
       },
       "history": [
         {
-          "at": 1792494961,
+          "at": 1791414136,
           "rate": 0.0,
           "api_ok": false
         },
         {
-          "at": 1792514412,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792531647,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792555886,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792570390,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792582305,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792601957,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792618126,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792642318,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792656843,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792668753,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792688282,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792704251,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792728926,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792743074,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792754473,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792774210,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792790108,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792814808,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792828177,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792838437,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792856546,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792873922,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792901335,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792915309,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792926318,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792943643,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792960782,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792987983,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793003010,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793018302,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793053867,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793075641,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793090041,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793102076,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793123353,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793138437,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793163832,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793178793,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793190677,
+          "at": 1793200190,
           "rate": 0.0,
           "api_ok": false
         }
@@ -4828,214 +923,24 @@
       "api": "http://cj.ffzyapi.com/api.php/provide/vod",
       "first_seen": 1791414139,
       "last_ok": null,
-      "last_fail": 1793190681,
+      "last_fail": 1793200190,
       "overseas": {
         "api_ok": true,
         "sampled": 3,
         "playable": 0,
         "rate": 0.0,
         "reason": "all sampled streams dead",
-        "ms": 4801,
-        "checked_at": 1793190681
+        "ms": 5109,
+        "checked_at": 1793200190
       },
       "history": [
         {
-          "at": 1792494961,
+          "at": 1791414139,
           "rate": 0.0,
           "api_ok": true
         },
         {
-          "at": 1792514416,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792531647,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792555886,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792570390,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792582305,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792601957,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792618129,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792642318,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792656843,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792668753,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792688285,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792704251,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792728927,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792743074,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792754474,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792774212,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792790109,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792814812,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792828177,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792838437,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792856546,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792873925,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792901335,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792915318,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792926318,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792943643,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792960782,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1792987983,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793003012,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793018302,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793053869,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793075641,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793090041,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793102078,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793123353,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793138437,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793163837,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793178800,
-          "rate": 0.0,
-          "api_ok": true
-        },
-        {
-          "at": 1793190681,
+          "at": 1793200190,
           "rate": 0.0,
           "api_ok": true
         }
@@ -5047,214 +952,24 @@
       "api": "https://haiwaikan.com/api.php/provide/vod",
       "first_seen": 1791414139,
       "last_ok": null,
-      "last_fail": 1793190681,
+      "last_fail": 1793200190,
       "overseas": {
         "api_ok": false,
         "sampled": 0,
         "playable": 0,
         "rate": 0.0,
         "reason": "api http 0",
-        "ms": 135,
-        "checked_at": 1793190681
+        "ms": 597,
+        "checked_at": 1793200190
       },
       "history": [
         {
-          "at": 1792494961,
+          "at": 1791414139,
           "rate": 0.0,
           "api_ok": false
         },
         {
-          "at": 1792514416,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792531647,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792555886,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792570390,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792582305,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792601957,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792618129,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792642318,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792656843,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792668753,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792688285,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792704251,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792728927,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792743074,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792754474,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792774227,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792790109,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792814812,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792828177,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792838437,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792856546,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792873925,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792901335,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792915318,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792926318,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792943643,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792960782,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792987983,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793003012,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793018302,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793053869,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793075642,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793090041,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793102078,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793123353,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793138437,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793163837,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793178800,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793190681,
+          "at": 1793200190,
           "rate": 0.0,
           "api_ok": false
         }
@@ -5266,216 +981,626 @@
       "api": "https://api.kuaifan.tv/api.php/provide/vod",
       "first_seen": 1791414139,
       "last_ok": null,
-      "last_fail": 1793190681,
+      "last_fail": 1793200190,
       "overseas": {
         "api_ok": false,
         "sampled": 0,
         "playable": 0,
         "rate": 0.0,
         "reason": "api http 0",
-        "ms": 118,
-        "checked_at": 1793190681
+        "ms": 397,
+        "checked_at": 1793200190
       },
       "history": [
         {
-          "at": 1792494961,
+          "at": 1791414139,
           "rate": 0.0,
           "api_ok": false
         },
         {
-          "at": 1792514416,
+          "at": 1793200190,
           "rate": 0.0,
           "api_ok": false
-        },
+        }
+      ]
+    },
+    {
+      "key": "api-maoyanapi-top",
+      "name": "api-maoyanapi-top",
+      "api": "https://api.maoyanapi.top/api.php/provide/vod",
+      "first_seen": 1793200190,
+      "last_ok": 1793200190,
+      "last_fail": null,
+      "overseas": {
+        "api_ok": true,
+        "sampled": 3,
+        "playable": 2,
+        "rate": 0.667,
+        "reason": "",
+        "ms": 8492,
+        "checked_at": 1793200190
+      },
+      "history": [
         {
-          "at": 1792531647,
-          "rate": 0.0,
-          "api_ok": false
-        },
+          "at": 1793200190,
+          "rate": 0.667,
+          "api_ok": true
+        }
+      ]
+    },
+    {
+      "key": "api-xiaojizy-live",
+      "name": "api-xiaojizy-live",
+      "api": "https://api.xiaojizy.live/provide/vod",
+      "first_seen": 1793200191,
+      "last_ok": 1793200191,
+      "last_fail": null,
+      "overseas": {
+        "api_ok": true,
+        "sampled": 3,
+        "playable": 3,
+        "rate": 1.0,
+        "reason": "",
+        "ms": 11828,
+        "checked_at": 1793200191
+      },
+      "history": [
         {
-          "at": 1792555886,
-          "rate": 0.0,
-          "api_ok": false
-        },
+          "at": 1793200191,
+          "rate": 1.0,
+          "api_ok": true
+        }
+      ]
+    },
+    {
+      "key": "api-xinlangapi-com",
+      "name": "api-xinlangapi-com",
+      "api": "http://api.xinlangapi.com/xinlangapi.php/provide/vod",
+      "first_seen": 1793200201,
+      "last_ok": null,
+      "last_fail": 1793200201,
+      "overseas": {
+        "api_ok": false,
+        "sampled": 0,
+        "playable": 0,
+        "rate": 0.0,
+        "reason": "api http 0",
+        "ms": 20118,
+        "checked_at": 1793200201
+      },
+      "history": [
         {
-          "at": 1792570390,
+          "at": 1793200201,
           "rate": 0.0,
           "api_ok": false
-        },
+        }
+      ]
+    },
+    {
+      "key": "caiji-maotaizy-cc",
+      "name": "caiji-maotaizy-cc",
+      "api": "https://caiji.maotaizy.cc/api.php/provide/vod",
+      "first_seen": 1793200232,
+      "last_ok": 1793200232,
+      "last_fail": null,
+      "overseas": {
+        "api_ok": true,
+        "sampled": 3,
+        "playable": 1,
+        "rate": 0.333,
+        "reason": "",
+        "ms": 51435,
+        "checked_at": 1793200232
+      },
+      "history": [
         {
-          "at": 1792582305,
-          "rate": 0.0,
-          "api_ok": false
-        },
+          "at": 1793200232,
+          "rate": 0.333,
+          "api_ok": true
+        }
+      ]
+    },
+    {
+      "key": "ckzy-me",
+      "name": "ckzy-me",
+      "api": "https://ckzy.me/api.php/provide/vod",
+      "first_seen": 1793200232,
+      "last_ok": 1793200232,
+      "last_fail": null,
+      "overseas": {
+        "api_ok": true,
+        "sampled": 3,
+        "playable": 3,
+        "rate": 1.0,
+        "reason": "",
+        "ms": 12936,
+        "checked_at": 1793200232
+      },
+      "history": [
         {
-          "at": 1792601957,
-          "rate": 0.0,
-          "api_ok": false
-        },
+          "at": 1793200232,
+          "rate": 1.0,
+          "api_ok": true
+        }
+      ]
+    },
+    {
+      "key": "fqzy-me",
+      "name": "fqzy-me",
+      "api": "https://fqzy.me//api.php/provide/vod",
+      "first_seen": 1793200232,
+      "last_ok": 1793200232,
+      "last_fail": null,
+      "overseas": {
+        "api_ok": true,
+        "sampled": 3,
+        "playable": 3,
+        "rate": 1.0,
+        "reason": "",
+        "ms": 9470,
+        "checked_at": 1793200232
+      },
+      "history": [
         {
-          "at": 1792618129,
-          "rate": 0.0,
-          "api_ok": false
-        },
+          "at": 1793200232,
+          "rate": 1.0,
+          "api_ok": true
+        }
+      ]
+    },
+    {
+      "key": "iqiyizyapi-com",
+      "name": "iqiyizyapi-com",
+      "api": "https://iqiyizyapi.com/api.php/provide/vod",
+      "first_seen": 1793200232,
+      "last_ok": 1793200232,
+      "last_fail": null,
+      "overseas": {
+        "api_ok": true,
+        "sampled": 3,
+        "playable": 3,
+        "rate": 1.0,
+        "reason": "",
+        "ms": 11416,
+        "checked_at": 1793200232
+      },
+      "history": [
         {
-          "at": 1792642318,
-          "rate": 0.0,
-          "api_ok": false
-        },
+          "at": 1793200232,
+          "rate": 1.0,
+          "api_ok": true
+        }
+      ]
+    },
+    {
+      "key": "jkunzyapi-com",
+      "name": "jkunzyapi-com",
+      "api": "https://jkunzyapi.com/api.php/provide/vod",
+      "first_seen": 1793200232,
+      "last_ok": null,
+      "last_fail": 1793200232,
+      "overseas": {
+        "api_ok": false,
+        "sampled": 0,
+        "playable": 0,
+        "rate": 0.0,
+        "reason": "api http 0",
+        "ms": 9889,
+        "checked_at": 1793200232
+      },
+      "history": [
         {
-          "at": 1792656843,
+          "at": 1793200232,
           "rate": 0.0,
           "api_ok": false
-        },
+        }
+      ]
+    },
+    {
+      "key": "hsckzy888-com",
+      "name": "hsckzy888-com",
+      "api": "https://hsckzy888.com/api.php/provide/vod",
+      "first_seen": 1793200232,
+      "last_ok": null,
+      "last_fail": 1793200232,
+      "overseas": {
+        "api_ok": false,
+        "sampled": 0,
+        "playable": 0,
+        "rate": 0.0,
+        "reason": "api http 0",
+        "ms": 21102,
+        "checked_at": 1793200232
+      },
+      "history": [
         {
-          "at": 1792668753,
+          "at": 1793200232,
           "rate": 0.0,
           "api_ok": false
-        },
+        }
+      ]
+    },
+    {
+      "key": "jyzyapi-com",
+      "name": "jyzyapi-com",
+      "api": "https://jyzyapi.com/provide/vod",
+      "first_seen": 1793200232,
+      "last_ok": null,
+      "last_fail": 1793200232,
+      "overseas": {
+        "api_ok": false,
+        "sampled": 0,
+        "playable": 0,
+        "rate": 0.0,
+        "reason": "api http 0",
+        "ms": 26992,
+        "checked_at": 1793200232
+      },
+      "history": [
         {
-          "at": 1792688285,
+          "at": 1793200232,
           "rate": 0.0,
           "api_ok": false
-        },
+        }
+      ]
+    },
+    {
+      "key": "jszyapi-com",
+      "name": "jszyapi-com",
+      "api": "https://jszyapi.com/api.php/provide/vod",
+      "first_seen": 1793200232,
+      "last_ok": null,
+      "last_fail": 1793200232,
+      "overseas": {
+        "api_ok": true,
+        "sampled": 3,
+        "playable": 0,
+        "rate": 0.0,
+        "reason": "all sampled streams dead",
+        "ms": 9676,
+        "checked_at": 1793200232
+      },
+      "history": [
         {
-          "at": 1792704251,
+          "at": 1793200232,
           "rate": 0.0,
-          "api_ok": false
-        },
+          "api_ok": true
+        }
+      ]
+    },
+    {
+      "key": "naixxzy-com",
+      "name": "naixxzy-com",
+      "api": "https://naixxzy.com/api.php/provide/vod",
+      "first_seen": 1793200232,
+      "last_ok": 1793200232,
+      "last_fail": null,
+      "overseas": {
+        "api_ok": true,
+        "sampled": 3,
+        "playable": 3,
+        "rate": 1.0,
+        "reason": "",
+        "ms": 13557,
+        "checked_at": 1793200232
+      },
+      "history": [
         {
-          "at": 1792728927,
-          "rate": 0.0,
-          "api_ok": false
-        },
+          "at": 1793200232,
+          "rate": 1.0,
+          "api_ok": true
+        }
+      ]
+    },
+    {
+      "key": "subocaiji-com",
+      "name": "subocaiji-com",
+      "api": "https://subocaiji.com/api.php/provide/vod",
+      "first_seen": 1793200232,
+      "last_ok": null,
+      "last_fail": 1793200232,
+      "overseas": {
+        "api_ok": true,
+        "sampled": 3,
+        "playable": 0,
+        "rate": 0.0,
+        "reason": "all sampled streams dead",
+        "ms": 10002,
+        "checked_at": 1793200232
+      },
+      "history": [
         {
-          "at": 1792743074,
+          "at": 1793200232,
           "rate": 0.0,
-          "api_ok": false
-        },
+          "api_ok": true
+        }
+      ]
+    },
+    {
+      "key": "subocj-com",
+      "name": "subocj-com",
+      "api": "https://subocj.com/api.php/provide/vod",
+      "first_seen": 1793200232,
+      "last_ok": null,
+      "last_fail": 1793200232,
+      "overseas": {
+        "api_ok": false,
+        "sampled": 0,
+        "playable": 0,
+        "rate": 0.0,
+        "reason": "api http 0",
+        "ms": 20417,
+        "checked_at": 1793200232
+      },
+      "history": [
         {
-          "at": 1792754474,
+          "at": 1793200232,
           "rate": 0.0,
           "api_ok": false
-        },
+        }
+      ]
+    },
+    {
+      "key": "www-heiliaozyapi-com",
+      "name": "www-heiliaozyapi-com",
+      "api": "https://www.heiliaozyapi.com/api.php/provide/vod",
+      "first_seen": 1793200232,
+      "last_ok": 1793200232,
+      "last_fail": null,
+      "overseas": {
+        "api_ok": true,
+        "sampled": 3,
+        "playable": 3,
+        "rate": 1.0,
+        "reason": "",
+        "ms": 14684,
+        "checked_at": 1793200232
+      },
+      "history": [
         {
-          "at": 1792774227,
-          "rate": 0.0,
-          "api_ok": false
-        },
+          "at": 1793200232,
+          "rate": 1.0,
+          "api_ok": true
+        }
+      ]
+    },
+    {
+      "key": "www-hongniuzy3-com",
+      "name": "www-hongniuzy3-com",
+      "api": "https://www.hongniuzy3.com/api.php/provide/vod",
+      "first_seen": 1793200232,
+      "last_ok": null,
+      "last_fail": 1793200232,
+      "overseas": {
+        "api_ok": true,
+        "sampled": 3,
+        "playable": 0,
+        "rate": 0.0,
+        "reason": "all sampled streams dead",
+        "ms": 1960,
+        "checked_at": 1793200232
+      },
+      "history": [
         {
-          "at": 1792790109,
+          "at": 1793200232,
           "rate": 0.0,
-          "api_ok": false
-        },
+          "api_ok": true
+        }
+      ]
+    },
+    {
+      "key": "www-hongniuzy2-com",
+      "name": "www-hongniuzy2-com",
+      "api": "https://www.hongniuzy2.com/api.php/provide/vod",
+      "first_seen": 1793200232,
+      "last_ok": null,
+      "last_fail": 1793200232,
+      "overseas": {
+        "api_ok": true,
+        "sampled": 3,
+        "playable": 0,
+        "rate": 0.0,
+        "reason": "all sampled streams dead",
+        "ms": 4506,
+        "checked_at": 1793200232
+      },
+      "history": [
         {
-          "at": 1792814812,
+          "at": 1793200232,
           "rate": 0.0,
-          "api_ok": false
-        },
+          "api_ok": true
+        }
+      ]
+    },
+    {
+      "key": "www-jingpinx-com",
+      "name": "www-jingpinx-com",
+      "api": "https://www.jingpinx.com/api.php/provide/vod",
+      "first_seen": 1793200232,
+      "last_ok": 1793200232,
+      "last_fail": null,
+      "overseas": {
+        "api_ok": true,
+        "sampled": 3,
+        "playable": 3,
+        "rate": 1.0,
+        "reason": "",
+        "ms": 10184,
+        "checked_at": 1793200232
+      },
+      "history": [
         {
-          "at": 1792828177,
-          "rate": 0.0,
-          "api_ok": false
-        },
+          "at": 1793200232,
+          "rate": 1.0,
+          "api_ok": true
+        }
+      ]
+    },
+    {
+      "key": "www-haohuazy-com",
+      "name": "www-haohuazy-com",
+      "api": "https://www.haohuazy.com/api.php/provide/vod",
+      "first_seen": 1793200241,
+      "last_ok": null,
+      "last_fail": 1793200241,
+      "overseas": {
+        "api_ok": false,
+        "sampled": 0,
+        "playable": 0,
+        "rate": 0.0,
+        "reason": "api http 0",
+        "ms": 20673,
+        "checked_at": 1793200241
+      },
+      "history": [
         {
-          "at": 1792838437,
+          "at": 1793200241,
           "rate": 0.0,
           "api_ok": false
-        },
+        }
+      ]
+    },
+    {
+      "key": "www-huyaapi-com",
+      "name": "www-huyaapi-com",
+      "api": "https://www.huyaapi.com/api.php/provide/vod",
+      "first_seen": 1793200243,
+      "last_ok": null,
+      "last_fail": 1793200243,
+      "overseas": {
+        "api_ok": false,
+        "sampled": 0,
+        "playable": 0,
+        "rate": 0.0,
+        "reason": "api http 0",
+        "ms": 20398,
+        "checked_at": 1793200243
+      },
+      "history": [
         {
-          "at": 1792856546,
+          "at": 1793200243,
           "rate": 0.0,
           "api_ok": false
-        },
+        }
+      ]
+    },
+    {
+      "key": "yutuzy10-com",
+      "name": "yutuzy10-com",
+      "api": "https://yutuzy10.com/api.php/provide/vod",
+      "first_seen": 1793200243,
+      "last_ok": null,
+      "last_fail": 1793200243,
+      "overseas": {
+        "api_ok": false,
+        "sampled": 0,
+        "playable": 0,
+        "rate": 0.0,
+        "reason": "api http 0",
+        "ms": 15592,
+        "checked_at": 1793200243
+      },
+      "history": [
         {
-          "at": 1792873925,
+          "at": 1793200243,
           "rate": 0.0,
           "api_ok": false
-        },
+        }
+      ]
+    },
+    {
+      "key": "bf-xoxowin86cisyap-com",
+      "name": "bf-xoxowin86cisyap-com",
+      "api": "https://bf.xoxowin86cisyap.com/api.php/provide/vod",
+      "first_seen": 1793200243,
+      "last_ok": 1793200243,
+      "last_fail": null,
+      "overseas": {
+        "api_ok": true,
+        "sampled": 3,
+        "playable": 2,
+        "rate": 0.667,
+        "reason": "",
+        "ms": 15294,
+        "checked_at": 1793200243
+      },
+      "history": [
         {
-          "at": 1792901335,
-          "rate": 0.0,
-          "api_ok": false
-        },
+          "at": 1793200243,
+          "rate": 0.667,
+          "api_ok": true
+        }
+      ]
+    },
+    {
+      "key": "by-bfzyapi-com",
+      "name": "by-bfzyapi-com",
+      "api": "http://by.bfzyapi.com/api.php/provide/vod",
+      "first_seen": 1793200271,
+      "last_ok": null,
+      "last_fail": 1793200271,
+      "overseas": {
+        "api_ok": false,
+        "sampled": 0,
+        "playable": 0,
+        "rate": 0.0,
+        "reason": "api http 0",
+        "ms": 40216,
+        "checked_at": 1793200271
+      },
+      "history": [
         {
-          "at": 1792915318,
+          "at": 1793200271,
           "rate": 0.0,
           "api_ok": false
-        },
+        }
+      ]
+    },
+    {
+      "key": "hong-hgyx-vip",
+      "name": "hong-hgyx-vip",
+      "api": "https://hong.hgyx.vip/api.php/provide/vod",
+      "first_seen": 1793200271,
+      "last_ok": 1793200271,
+      "last_fail": null,
+      "overseas": {
+        "api_ok": true,
+        "sampled": 3,
+        "playable": 1,
+        "rate": 0.333,
+        "reason": "",
+        "ms": 12764,
+        "checked_at": 1793200271
+      },
+      "history": [
         {
-          "at": 1792926318,
-          "rate": 0.0,
-          "api_ok": false
-        },
+          "at": 1793200271,
+          "rate": 0.333,
+          "api_ok": true
+        }
+      ]
+    },
+    {
+      "key": "caiji-dbzy5-com",
+      "name": "caiji-dbzy5-com",
+      "api": "https://caiji.dbzy5.com/api.php/provide/vod",
+      "first_seen": 1793200292,
+      "last_ok": 1793200292,
+      "last_fail": null,
+      "overseas": {
+        "api_ok": true,
+        "sampled": 3,
+        "playable": 1,
+        "rate": 0.333,
+        "reason": "",
+        "ms": 50650,
+        "checked_at": 1793200292
+      },
+      "history": [
         {
-          "at": 1792943643,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792960782,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1792987983,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793003012,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793018302,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793053869,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793075642,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793090041,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793102078,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793123353,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793138437,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793163837,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793178800,
-          "rate": 0.0,
-          "api_ok": false
-        },
-        {
-          "at": 1793190681,
-          "rate": 0.0,
-          "api_ok": false
+          "at": 1793200292,
+          "rate": 0.333,
+          "api_ok": true
         }
       ]
     }

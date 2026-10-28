@@ -14,6 +14,8 @@
 """
 from __future__ import annotations
 
+import base64
+import json
 import os
 import re
 import sys
@@ -111,6 +113,122 @@ def load_known() -> tuple[set[str], list[str], int]:
     return known, lines, auto
 
 
+# ---------- 进料口 4: GitHub code search ----------
+# 为什么需要: 另外 3 个静态 feed 实测只能反复吐出同一批 17 个老接口(新增 0/轮),
+# 而 GitHub 上有 2 万+ 公开文件包含 `provide/vod`(各类 TVBox/影视仓接口合集), 是当前唯一还在长的进料口。
+# 轮转: 每次只读一页(100 个文件), 按 cursor 轮换页码与查询词 —— 否则每轮都看同样的 top100, 永远只挖到同样几条。
+GH_QUERIES = ["provide/vod in:file", '"api.php/provide/vod" in:file', "provide/vod/from in:file"]
+GH_FILES_PER_ROUND = 30
+ROUND_BUDGET_S = 240          # 一轮发现的总时间预算(超出就收工, 别把 CI 拖到超时)
+CURSOR = os.path.join(ROOT, "discover_cursor.txt")
+
+
+def _deadline() -> float:
+    return __import__("time").time() + ROUND_BUDGET_S
+
+
+
+def _gh_token() -> str:
+    return os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN") or ""
+
+
+def _gh_json(path: str, timeout: int = 25):
+    token = _gh_token()
+    if not token:
+        return None
+    req = urllib.request.Request(
+        "https://api.github.com" + path,
+        headers={"Authorization": f"Bearer {token}", "Accept": "application/vnd.github+json",
+                 "User-Agent": UA, "X-GitHub-Api-Version": "2022-11-28"},
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=timeout) as r:
+            return json.loads(r.read(4 * 1024 * 1024).decode("utf-8", "ignore"))
+    except Exception:
+        return None
+
+
+def _cursor() -> int:
+    try:
+        return int(open(CURSOR).read().strip() or "0")
+    except Exception:
+        return 0
+
+
+def _cursor_write(v: int) -> None:
+    try:
+        with open(CURSOR, "w") as f:
+            f.write(str(v))
+    except OSError:
+        pass
+
+
+def github_harvest() -> dict[str, str]:
+    """从 GitHub code search 挖采集接口文件里的接口地址(近半年有更新的仓库优先)"""
+    if not _gh_token():
+        print("  · GitHub搜索            跳过(无 token)")
+        return {}
+    rot = _cursor()
+    q = GH_QUERIES[rot % len(GH_QUERIES)]
+    page = 1 + (rot // len(GH_QUERIES)) % 5
+    d = _gh_json(f"/search/code?q={urllib.parse.quote(q)}&per_page=100&page={page}")
+    if not d or not d.get("items"):
+        print(f"  · GitHub搜索            取不到(q={q[:24]} p={page})")
+        return {}
+    files, seen_repo_path = [], set()
+    for it in d["items"]:
+        repo = it["repository"]["full_name"]
+        path = it["path"]
+        if not path.lower().endswith((".json", ".txt", ".md", ".py", ".ts", ".js", ".conf", ".yaml", ".yml")):
+            continue
+        if (repo, path) in seen_repo_path:
+            continue
+        seen_repo_path.add((repo, path))
+        files.append((repo, path, it["repository"].get("pushed_at") or ""))
+    files.sort(key=lambda x: x[2], reverse=True)
+    found: dict[str, str] = {}
+    t_end = _deadline()
+    scanned = 0
+    for repo, path, _ in files[:GH_FILES_PER_ROUND]:
+        if __import__("time").time() > t_end:
+            print("  · GitHub搜索            时间预算用尽, 本轮提前收工")
+            break
+        scanned += 1
+        _, body = fetch(f"https://raw.githubusercontent.com/{repo}/HEAD/{path}", timeout=8)
+        if not body:
+            # raw 被墙/取不到时用 contents API 兜底(base64)
+            d2 = _gh_json(f"/repos/{repo}/contents/{urllib.parse.quote(path)}")
+            try:
+                body = base64.b64decode(d2["content"]).decode("utf-8", "ignore") if isinstance(d2, dict) and d2.get("content") else ""
+            except Exception:
+                body = ""
+        if not body:
+            continue
+        for m in API_RE.findall(body):
+            api = clean(m)
+            if len(api) > 8 and canonical(api) not in found:
+                found[canonical(api)] = api
+    print(f"  · GitHub搜索            扫 {scanned} 文件 → 提取 {len(found)} 个(q={q[:20]} p={page})")
+    _cursor_write(rot + 1)
+    return found
+
+
+def api_reachable(api: str) -> bool:
+    """便宜的广度筛: 接口能返回 JSON 且 list 非空(不等于能播 —— 可播率由使用方本地终审)。
+    只用来挡掉整段死域名, 不当作剔除依据。"""
+    sep = "&" if "?" in api else "?"
+    for ac in ("ac=detail&pg=1", "ac=videolist&pg=1"):
+        code, body = http(f"{api}{sep}{ac}", timeout=10)
+        if code == 200 and body.lstrip().startswith("{"):
+            try:
+                if json.loads(body).get("list"):
+                    return True
+            except Exception:
+                continue
+    return False
+
+
+
 def harvest(feeds: list[tuple[str, str]]) -> dict[str, str]:
     """抓取 + 提取; 并对"多仓"(内容是地址列表的)做一级展开"""
     found: dict[str, str] = {}          # canonical → 原始地址
@@ -155,15 +273,32 @@ def main() -> int:
     known, lines, auto = load_known()
     print(f"  现有候选 {len(known)} 个(其中自动发现 {auto} 个)")
     found = harvest(FEEDS)
+    found.update(github_harvest())
     fresh = {k: v for k, v in found.items() if k not in known}
     print(f"  发现接口 {len(found)} 个, 其中新增 {len(fresh)} 个")
     if not fresh:
         print("  无需追加")
         return 0
-    add = list(fresh.values())[:MAX_NEW]
+    # 广度筛: 只保留「接口本身能返回数据」的候选(挡掉整段死域名), 可播率交给使用方本地终审。
+    # ⚠️ 这一步只证明 API 通, **不证明能播** —— 海外出口拉流特性差异很大, 不能据此弃源。
+    cands = list(fresh.values())
+    t_end = _deadline()
+    with ThreadPoolExecutor(max_workers=12) as ex:
+        alive = []
+        for api, ok in zip(cands, ex.map(api_reachable, cands)):
+            if ok:
+                alive.append(api)
+            if __import__("time").time() > t_end:
+                print("  (广度筛时间预算用尽, 剩余候选下轮再筛)")
+                break
+    print(f"  接口可达 {len(alive)} 个")
+    if not alive:
+        print("  无可追加(全部接口不可达)")
+        return 0
+    add = alive[:MAX_NEW]
     if not lines or lines[-1].strip():
         lines.append("")
-    lines.append(f"# ---- 自动发现 {__import__('time').strftime('%Y-%m-%d')} (共 {len(fresh)} 个, 本轮写入 {len(add)} 个) ----")
+    lines.append(f"# ---- 自动发现 {__import__('time').strftime('%Y-%m-%d')} (共 {len(fresh)} 个新接口, 可达 {len(alive)}, 本轮写入 {len(add)} 个) ----")
     for api in add:
         host = urllib.parse.urlparse(api).hostname or "src"
         lines.append(f"自动发现·{host}|{api}")
