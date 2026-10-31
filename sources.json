@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": 1793422862,
+  "generated_at": 1793438062,
   "checker": "github-actions/overseas",
   "note": "overseas 视角: 用于筛选; 最终可用性请在使用方网络内复测",
   "sources": [
@@ -10,15 +10,15 @@
       "api": "https://suoniapi.com/api.php/provide/vod/from/snm3u8/",
       "first_seen": 1791387214,
       "last_ok": 1791387319,
-      "last_fail": 1793422736,
+      "last_fail": 1793437882,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
+        "sampled": 8,
         "playable": 0,
         "rate": 0.0,
         "reason": "all sampled streams dead",
-        "ms": 2030,
-        "checked_at": 1793422736
+        "ms": 1105,
+        "checked_at": 1793437882
       },
       "history": [
         {
@@ -110,6 +110,11 @@
           "at": 1793422736,
           "rate": 0.0,
           "api_ok": true
+        },
+        {
+          "at": 1793437882,
+          "rate": 0.0,
+          "api_ok": true
         }
       ]
     },
@@ -119,15 +124,15 @@
       "api": "https://api.zuidapi.com/api.php/provide/vod",
       "first_seen": 1791387215,
       "last_ok": 1791387320,
-      "last_fail": 1793422736,
+      "last_fail": 1793437882,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
+        "sampled": 8,
         "playable": 0,
         "rate": 0.0,
         "reason": "all sampled streams dead",
-        "ms": 1705,
-        "checked_at": 1793422736
+        "ms": 938,
+        "checked_at": 1793437882
       },
       "history": [
         {
@@ -219,6 +224,11 @@
           "at": 1793422736,
           "rate": 0.0,
           "api_ok": true
+        },
+        {
+          "at": 1793437882,
+          "rate": 0.0,
+          "api_ok": true
         }
       ]
     },
@@ -227,16 +237,16 @@
       "name": "如意",
       "api": "https://cj.rycjapi.com/api.php/provide/vod",
       "first_seen": 1791387215,
-      "last_ok": 1793398165,
-      "last_fail": 1793422738,
+      "last_ok": 1793437890,
+      "last_fail": null,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
-        "playable": 0,
-        "rate": 0.0,
-        "reason": "all sampled streams dead",
-        "ms": 3934,
-        "checked_at": 1793422738
+        "sampled": 8,
+        "playable": 2,
+        "rate": 0.25,
+        "reason": "",
+        "ms": 8804,
+        "checked_at": 1793437890
       },
       "history": [
         {
@@ -328,6 +338,11 @@
           "at": 1793422738,
           "rate": 0.0,
           "api_ok": true
+        },
+        {
+          "at": 1793437890,
+          "rate": 0.25,
+          "api_ok": true
         }
       ]
     },
@@ -336,16 +351,16 @@
       "name": "魔都",
       "api": "https://caiji.moduapi.cc/api.php/provide/vod",
       "first_seen": 1791387215,
-      "last_ok": 1793422738,
+      "last_ok": 1793437890,
       "last_fail": null,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
-        "playable": 3,
+        "sampled": 8,
+        "playable": 8,
         "rate": 1.0,
         "reason": "",
-        "ms": 4692,
-        "checked_at": 1793422738
+        "ms": 7346,
+        "checked_at": 1793437890
       },
       "history": [
         {
@@ -437,6 +452,11 @@
           "at": 1793422738,
           "rate": 1.0,
           "api_ok": true
+        },
+        {
+          "at": 1793437890,
+          "rate": 1.0,
+          "api_ok": true
         }
       ]
     },
@@ -445,16 +465,16 @@
       "name": "暴风",
       "api": "https://bfzyapi.com/api.php/provide/vod",
       "first_seen": 1791387215,
-      "last_ok": 1793422742,
+      "last_ok": 1793437896,
       "last_fail": null,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
-        "playable": 2,
-        "rate": 0.667,
+        "sampled": 8,
+        "playable": 5,
+        "rate": 0.625,
         "reason": "",
-        "ms": 7850,
-        "checked_at": 1793422742
+        "ms": 14763,
+        "checked_at": 1793437896
       },
       "history": [
         {
@@ -546,6 +566,11 @@
           "at": 1793422742,
           "rate": 0.667,
           "api_ok": true
+        },
+        {
+          "at": 1793437896,
+          "rate": 0.625,
+          "api_ok": true
         }
       ]
     },
@@ -555,15 +580,15 @@
       "api": "https://cj.lziapi.com/api.php/provide/vod",
       "first_seen": 1791387215,
       "last_ok": null,
-      "last_fail": 1793422742,
+      "last_fail": 1793437896,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
+        "sampled": 8,
         "playable": 0,
         "rate": 0.0,
         "reason": "all sampled streams dead",
-        "ms": 3209,
-        "checked_at": 1793422742
+        "ms": 6737,
+        "checked_at": 1793437896
       },
       "history": [
         {
@@ -655,6 +680,11 @@
           "at": 1793422742,
           "rate": 0.0,
           "api_ok": true
+        },
+        {
+          "at": 1793437896,
+          "rate": 0.0,
+          "api_ok": true
         }
       ]
     },
@@ -664,15 +694,15 @@
       "api": "https://api.ffzyapi.com/api.php/provide/vod",
       "first_seen": 1791387215,
       "last_ok": null,
-      "last_fail": 1793422742,
+      "last_fail": 1793437896,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
+        "sampled": 8,
         "playable": 0,
         "rate": 0.0,
         "reason": "all sampled streams dead",
-        "ms": 6864,
-        "checked_at": 1793422742
+        "ms": 13536,
+        "checked_at": 1793437896
       },
       "history": [
         {
@@ -764,6 +794,11 @@
           "at": 1793422742,
           "rate": 0.0,
           "api_ok": true
+        },
+        {
+          "at": 1793437896,
+          "rate": 0.0,
+          "api_ok": true
         }
       ]
     },
@@ -773,15 +808,15 @@
       "api": "https://caiji.dyttzyapi.com/api.php/provide/vod",
       "first_seen": 1791387215,
       "last_ok": null,
-      "last_fail": 1793422742,
+      "last_fail": 1793437897,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
+        "sampled": 8,
         "playable": 0,
         "rate": 0.0,
         "reason": "all sampled streams dead",
-        "ms": 6041,
-        "checked_at": 1793422742
+        "ms": 14548,
+        "checked_at": 1793437897
       },
       "history": [
         {
@@ -873,6 +908,11 @@
           "at": 1793422742,
           "rate": 0.0,
           "api_ok": true
+        },
+        {
+          "at": 1793437897,
+          "rate": 0.0,
+          "api_ok": true
         }
       ]
     },
@@ -882,15 +922,15 @@
       "api": "https://api.wwzy.tv/api.php/provide/vod",
       "first_seen": 1791387215,
       "last_ok": null,
-      "last_fail": 1793422742,
+      "last_fail": 1793437897,
       "overseas": {
         "api_ok": false,
         "sampled": 0,
         "playable": 0,
         "rate": 0.0,
         "reason": "api not json",
-        "ms": 484,
-        "checked_at": 1793422742
+        "ms": 490,
+        "checked_at": 1793437897
       },
       "history": [
         {
@@ -980,6 +1020,11 @@
         },
         {
           "at": 1793422742,
+          "rate": 0.0,
+          "api_ok": false
+        },
+        {
+          "at": 1793437897,
           "rate": 0.0,
           "api_ok": false
         }
@@ -991,15 +1036,15 @@
       "api": "https://api.1080zyku.com/inc/api.php/provide/vod",
       "first_seen": 1791387215,
       "last_ok": null,
-      "last_fail": 1793422742,
+      "last_fail": 1793437897,
       "overseas": {
         "api_ok": false,
         "sampled": 0,
         "playable": 0,
         "rate": 0.0,
         "reason": "api not json",
-        "ms": 487,
-        "checked_at": 1793422742
+        "ms": 622,
+        "checked_at": 1793437897
       },
       "history": [
         {
@@ -1089,6 +1134,11 @@
         },
         {
           "at": 1793422742,
+          "rate": 0.0,
+          "api_ok": false
+        },
+        {
+          "at": 1793437897,
           "rate": 0.0,
           "api_ok": false
         }
@@ -1100,15 +1150,15 @@
       "api": "https://collect.wolongzyw.com/api.php/provide/vod",
       "first_seen": 1791387215,
       "last_ok": null,
-      "last_fail": 1793422742,
+      "last_fail": 1793437897,
       "overseas": {
         "api_ok": false,
         "sampled": 0,
         "playable": 0,
         "rate": 0.0,
         "reason": "api not json",
-        "ms": 721,
-        "checked_at": 1793422742
+        "ms": 1007,
+        "checked_at": 1793437897
       },
       "history": [
         {
@@ -1200,6 +1250,11 @@
           "at": 1793422742,
           "rate": 0.0,
           "api_ok": false
+        },
+        {
+          "at": 1793437897,
+          "rate": 0.0,
+          "api_ok": false
         }
       ]
     },
@@ -1209,15 +1264,15 @@
       "api": "https://api.apibdzy.com/api.php/provide/vod",
       "first_seen": 1791414134,
       "last_ok": null,
-      "last_fail": 1793422742,
+      "last_fail": 1793437898,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
+        "sampled": 8,
         "playable": 0,
         "rate": 0.0,
         "reason": "all sampled streams dead",
-        "ms": 3851,
-        "checked_at": 1793422742
+        "ms": 8748,
+        "checked_at": 1793437898
       },
       "history": [
         {
@@ -1284,6 +1339,11 @@
           "at": 1793422742,
           "rate": 0.0,
           "api_ok": true
+        },
+        {
+          "at": 1793437898,
+          "rate": 0.0,
+          "api_ok": true
         }
       ]
     },
@@ -1293,15 +1353,15 @@
       "api": "https://api.ukuapi.com/api.php/provide/vod",
       "first_seen": 1791414134,
       "last_ok": null,
-      "last_fail": 1793422743,
+      "last_fail": 1793437899,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
+        "sampled": 8,
         "playable": 0,
         "rate": 0.0,
         "reason": "all sampled streams dead",
-        "ms": 4527,
-        "checked_at": 1793422743
+        "ms": 9559,
+        "checked_at": 1793437899
       },
       "history": [
         {
@@ -1366,6 +1426,11 @@
         },
         {
           "at": 1793422743,
+          "rate": 0.0,
+          "api_ok": true
+        },
+        {
+          "at": 1793437899,
           "rate": 0.0,
           "api_ok": true
         }
@@ -1377,15 +1442,15 @@
       "api": "https://www.qilinzyz.com/api.php/provide/vod",
       "first_seen": 1791414134,
       "last_ok": null,
-      "last_fail": 1793422743,
+      "last_fail": 1793437899,
       "overseas": {
         "api_ok": false,
         "sampled": 0,
         "playable": 0,
         "rate": 0.0,
         "reason": "api not json",
-        "ms": 368,
-        "checked_at": 1793422743
+        "ms": 282,
+        "checked_at": 1793437899
       },
       "history": [
         {
@@ -1452,6 +1517,11 @@
           "at": 1793422743,
           "rate": 0.0,
           "api_ok": false
+        },
+        {
+          "at": 1793437899,
+          "rate": 0.0,
+          "api_ok": false
         }
       ]
     },
@@ -1461,15 +1531,15 @@
       "api": "http://api.fqzy.cc/api.php/provide/vod",
       "first_seen": 1791414135,
       "last_ok": null,
-      "last_fail": 1793422759,
+      "last_fail": 1793437910,
       "overseas": {
         "api_ok": false,
         "sampled": 0,
         "playable": 0,
         "rate": 0.0,
         "reason": "api http 0",
-        "ms": 20310,
-        "checked_at": 1793422759
+        "ms": 20280,
+        "checked_at": 1793437910
       },
       "history": [
         {
@@ -1534,6 +1604,11 @@
         },
         {
           "at": 1793422759,
+          "rate": 0.0,
+          "api_ok": false
+        },
+        {
+          "at": 1793437910,
           "rate": 0.0,
           "api_ok": false
         }
@@ -1545,15 +1620,15 @@
       "api": "https://www.hongniuzy1.com/inc/api.php",
       "first_seen": 1791414135,
       "last_ok": null,
-      "last_fail": 1793422759,
+      "last_fail": 1793437910,
       "overseas": {
         "api_ok": false,
         "sampled": 0,
         "playable": 0,
         "rate": 0.0,
         "reason": "api http 0",
-        "ms": 145,
-        "checked_at": 1793422759
+        "ms": 82,
+        "checked_at": 1793437910
       },
       "history": [
         {
@@ -1618,6 +1693,11 @@
         },
         {
           "at": 1793422759,
+          "rate": 0.0,
+          "api_ok": false
+        },
+        {
+          "at": 1793437910,
           "rate": 0.0,
           "api_ok": false
         }
@@ -1629,15 +1709,15 @@
       "api": "https://api.wujinapi.com/api.php/provide/vod",
       "first_seen": 1791414135,
       "last_ok": null,
-      "last_fail": 1793422759,
+      "last_fail": 1793437910,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
+        "sampled": 8,
         "playable": 0,
         "rate": 0.0,
         "reason": "all sampled streams dead",
-        "ms": 1806,
-        "checked_at": 1793422759
+        "ms": 843,
+        "checked_at": 1793437910
       },
       "history": [
         {
@@ -1704,6 +1784,11 @@
           "at": 1793422759,
           "rate": 0.0,
           "api_ok": true
+        },
+        {
+          "at": 1793437910,
+          "rate": 0.0,
+          "api_ok": true
         }
       ]
     },
@@ -1713,15 +1798,15 @@
       "api": "http://www.kuaibozy.com/api.php/provide/vod",
       "first_seen": 1791414135,
       "last_ok": null,
-      "last_fail": 1793422759,
+      "last_fail": 1793437910,
       "overseas": {
         "api_ok": false,
         "sampled": 0,
         "playable": 0,
         "rate": 0.0,
         "reason": "api not json",
-        "ms": 151,
-        "checked_at": 1793422759
+        "ms": 318,
+        "checked_at": 1793437910
       },
       "history": [
         {
@@ -1786,6 +1871,11 @@
         },
         {
           "at": 1793422759,
+          "rate": 0.0,
+          "api_ok": false
+        },
+        {
+          "at": 1793437910,
           "rate": 0.0,
           "api_ok": false
         }
@@ -1797,15 +1887,15 @@
       "api": "http://zy.yilans.net:8090/api.php/provide/vod",
       "first_seen": 1791414135,
       "last_ok": null,
-      "last_fail": 1793422759,
+      "last_fail": 1793437910,
       "overseas": {
         "api_ok": false,
         "sampled": 0,
         "playable": 0,
         "rate": 0.0,
         "reason": "api http 0",
-        "ms": 60,
-        "checked_at": 1793422759
+        "ms": 83,
+        "checked_at": 1793437910
       },
       "history": [
         {
@@ -1872,6 +1962,11 @@
           "at": 1793422759,
           "rate": 0.0,
           "api_ok": false
+        },
+        {
+          "at": 1793437910,
+          "rate": 0.0,
+          "api_ok": false
         }
       ]
     },
@@ -1881,15 +1976,15 @@
       "api": "http://vipmv.cc/api.php/provide/vod",
       "first_seen": 1791414136,
       "last_ok": null,
-      "last_fail": 1793422759,
+      "last_fail": 1793437910,
       "overseas": {
         "api_ok": false,
         "sampled": 0,
         "playable": 0,
         "rate": 0.0,
         "reason": "api http 403",
-        "ms": 32,
-        "checked_at": 1793422759
+        "ms": 89,
+        "checked_at": 1793437910
       },
       "history": [
         {
@@ -1954,6 +2049,11 @@
         },
         {
           "at": 1793422759,
+          "rate": 0.0,
+          "api_ok": false
+        },
+        {
+          "at": 1793437910,
           "rate": 0.0,
           "api_ok": false
         }
@@ -1965,15 +2065,15 @@
       "api": "https://demo.if101.tv/api.php/provide/vod",
       "first_seen": 1791414136,
       "last_ok": null,
-      "last_fail": 1793422759,
+      "last_fail": 1793437910,
       "overseas": {
         "api_ok": false,
         "sampled": 0,
         "playable": 0,
         "rate": 0.0,
         "reason": "api http 0",
-        "ms": 31,
-        "checked_at": 1793422759
+        "ms": 6,
+        "checked_at": 1793437910
       },
       "history": [
         {
@@ -2040,6 +2140,11 @@
           "at": 1793422759,
           "rate": 0.0,
           "api_ok": false
+        },
+        {
+          "at": 1793437910,
+          "rate": 0.0,
+          "api_ok": false
         }
       ]
     },
@@ -2049,15 +2154,15 @@
       "api": "https://zy.renrenmi.cc/api.php/provide/vod",
       "first_seen": 1791414136,
       "last_ok": null,
-      "last_fail": 1793422759,
+      "last_fail": 1793437910,
       "overseas": {
         "api_ok": false,
         "sampled": 0,
         "playable": 0,
         "rate": 0.0,
         "reason": "api http 0",
-        "ms": 129,
-        "checked_at": 1793422759
+        "ms": 255,
+        "checked_at": 1793437910
       },
       "history": [
         {
@@ -2124,6 +2229,11 @@
           "at": 1793422759,
           "rate": 0.0,
           "api_ok": false
+        },
+        {
+          "at": 1793437910,
+          "rate": 0.0,
+          "api_ok": false
         }
       ]
     },
@@ -2133,15 +2243,15 @@
       "api": "http://cj.ffzyapi.com/api.php/provide/vod",
       "first_seen": 1791414139,
       "last_ok": null,
-      "last_fail": 1793422759,
+      "last_fail": 1793437910,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
+        "sampled": 8,
         "playable": 0,
         "rate": 0.0,
         "reason": "all sampled streams dead",
-        "ms": 6000,
-        "checked_at": 1793422759
+        "ms": 11317,
+        "checked_at": 1793437910
       },
       "history": [
         {
@@ -2208,6 +2318,11 @@
           "at": 1793422759,
           "rate": 0.0,
           "api_ok": true
+        },
+        {
+          "at": 1793437910,
+          "rate": 0.0,
+          "api_ok": true
         }
       ]
     },
@@ -2217,15 +2332,15 @@
       "api": "https://haiwaikan.com/api.php/provide/vod",
       "first_seen": 1791414139,
       "last_ok": null,
-      "last_fail": 1793422759,
+      "last_fail": 1793437910,
       "overseas": {
         "api_ok": false,
         "sampled": 0,
         "playable": 0,
         "rate": 0.0,
         "reason": "api http 0",
-        "ms": 132,
-        "checked_at": 1793422759
+        "ms": 247,
+        "checked_at": 1793437910
       },
       "history": [
         {
@@ -2290,6 +2405,11 @@
         },
         {
           "at": 1793422759,
+          "rate": 0.0,
+          "api_ok": false
+        },
+        {
+          "at": 1793437910,
           "rate": 0.0,
           "api_ok": false
         }
@@ -2301,15 +2421,15 @@
       "api": "https://api.kuaifan.tv/api.php/provide/vod",
       "first_seen": 1791414139,
       "last_ok": null,
-      "last_fail": 1793422759,
+      "last_fail": 1793437910,
       "overseas": {
         "api_ok": false,
         "sampled": 0,
         "playable": 0,
         "rate": 0.0,
         "reason": "api http 0",
-        "ms": 306,
-        "checked_at": 1793422759
+        "ms": 24,
+        "checked_at": 1793437910
       },
       "history": [
         {
@@ -2376,6 +2496,11 @@
           "at": 1793422759,
           "rate": 0.0,
           "api_ok": false
+        },
+        {
+          "at": 1793437910,
+          "rate": 0.0,
+          "api_ok": false
         }
       ]
     },
@@ -2384,16 +2509,16 @@
       "name": "api-maoyanapi-top",
       "api": "https://api.maoyanapi.top/api.php/provide/vod",
       "first_seen": 1793200190,
-      "last_ok": 1793422759,
+      "last_ok": 1793437910,
       "last_fail": null,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
-        "playable": 3,
+        "sampled": 8,
+        "playable": 8,
         "rate": 1.0,
         "reason": "",
-        "ms": 6840,
-        "checked_at": 1793422759
+        "ms": 3935,
+        "checked_at": 1793437910
       },
       "history": [
         {
@@ -2455,6 +2580,11 @@
           "at": 1793422759,
           "rate": 1.0,
           "api_ok": true
+        },
+        {
+          "at": 1793437910,
+          "rate": 1.0,
+          "api_ok": true
         }
       ]
     },
@@ -2463,16 +2593,16 @@
       "name": "api-xiaojizy-live",
       "api": "https://api.xiaojizy.live/provide/vod",
       "first_seen": 1793200191,
-      "last_ok": 1793422759,
+      "last_ok": 1793437910,
       "last_fail": null,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
-        "playable": 3,
+        "sampled": 8,
+        "playable": 8,
         "rate": 1.0,
         "reason": "",
-        "ms": 2563,
-        "checked_at": 1793422759
+        "ms": 2136,
+        "checked_at": 1793437910
       },
       "history": [
         {
@@ -2534,6 +2664,11 @@
           "at": 1793422759,
           "rate": 1.0,
           "api_ok": true
+        },
+        {
+          "at": 1793437910,
+          "rate": 1.0,
+          "api_ok": true
         }
       ]
     },
@@ -2543,15 +2678,15 @@
       "api": "http://api.xinlangapi.com/xinlangapi.php/provide/vod",
       "first_seen": 1793200201,
       "last_ok": null,
-      "last_fail": 1793422759,
+      "last_fail": 1793437910,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
+        "sampled": 8,
         "playable": 0,
         "rate": 0.0,
         "reason": "all sampled streams dead",
-        "ms": 1783,
-        "checked_at": 1793422759
+        "ms": 4212,
+        "checked_at": 1793437910
       },
       "history": [
         {
@@ -2613,6 +2748,11 @@
           "at": 1793422759,
           "rate": 0.0,
           "api_ok": true
+        },
+        {
+          "at": 1793437910,
+          "rate": 0.0,
+          "api_ok": true
         }
       ]
     },
@@ -2621,16 +2761,16 @@
       "name": "caiji-maotaizy-cc",
       "api": "https://caiji.maotaizy.cc/api.php/provide/vod",
       "first_seen": 1793200232,
-      "last_ok": 1793422759,
+      "last_ok": 1793437952,
       "last_fail": null,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
+        "sampled": 8,
         "playable": 3,
-        "rate": 1.0,
+        "rate": 0.375,
         "reason": "",
-        "ms": 13961,
-        "checked_at": 1793422759
+        "ms": 52627,
+        "checked_at": 1793437952
       },
       "history": [
         {
@@ -2692,6 +2832,11 @@
           "at": 1793422759,
           "rate": 1.0,
           "api_ok": true
+        },
+        {
+          "at": 1793437952,
+          "rate": 0.375,
+          "api_ok": true
         }
       ]
     },
@@ -2700,16 +2845,16 @@
       "name": "ckzy-me",
       "api": "https://ckzy.me/api.php/provide/vod",
       "first_seen": 1793200232,
-      "last_ok": 1793422759,
+      "last_ok": 1793437952,
       "last_fail": null,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
-        "playable": 3,
+        "sampled": 8,
+        "playable": 8,
         "rate": 1.0,
         "reason": "",
-        "ms": 3873,
-        "checked_at": 1793422759
+        "ms": 3042,
+        "checked_at": 1793437952
       },
       "history": [
         {
@@ -2769,6 +2914,11 @@
         },
         {
           "at": 1793422759,
+          "rate": 1.0,
+          "api_ok": true
+        },
+        {
+          "at": 1793437952,
           "rate": 1.0,
           "api_ok": true
         }
@@ -2779,16 +2929,16 @@
       "name": "fqzy-me",
       "api": "https://fqzy.me//api.php/provide/vod",
       "first_seen": 1793200232,
-      "last_ok": 1793422759,
+      "last_ok": 1793437952,
       "last_fail": null,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
-        "playable": 3,
+        "sampled": 8,
+        "playable": 8,
         "rate": 1.0,
         "reason": "",
-        "ms": 5074,
-        "checked_at": 1793422759
+        "ms": 4688,
+        "checked_at": 1793437952
       },
       "history": [
         {
@@ -2850,6 +3000,11 @@
           "at": 1793422759,
           "rate": 1.0,
           "api_ok": true
+        },
+        {
+          "at": 1793437952,
+          "rate": 1.0,
+          "api_ok": true
         }
       ]
     },
@@ -2858,16 +3013,16 @@
       "name": "iqiyizyapi-com",
       "api": "https://iqiyizyapi.com/api.php/provide/vod",
       "first_seen": 1793200232,
-      "last_ok": 1793398183,
-      "last_fail": 1793422759,
+      "last_ok": 1793437952,
+      "last_fail": null,
       "overseas": {
-        "api_ok": false,
-        "sampled": 0,
-        "playable": 0,
-        "rate": 0.0,
-        "reason": "api http 503",
-        "ms": 633,
-        "checked_at": 1793422759
+        "api_ok": true,
+        "sampled": 8,
+        "playable": 8,
+        "rate": 1.0,
+        "reason": "",
+        "ms": 16564,
+        "checked_at": 1793437952
       },
       "history": [
         {
@@ -2929,6 +3084,11 @@
           "at": 1793422759,
           "rate": 0.0,
           "api_ok": false
+        },
+        {
+          "at": 1793437952,
+          "rate": 1.0,
+          "api_ok": true
         }
       ]
     },
@@ -2937,16 +3097,16 @@
       "name": "jkunzyapi-com",
       "api": "https://jkunzyapi.com/api.php/provide/vod",
       "first_seen": 1793200232,
-      "last_ok": 1793422759,
+      "last_ok": 1793437952,
       "last_fail": null,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
-        "playable": 3,
-        "rate": 1.0,
+        "sampled": 8,
+        "playable": 2,
+        "rate": 0.25,
         "reason": "",
-        "ms": 3217,
-        "checked_at": 1793422759
+        "ms": 22848,
+        "checked_at": 1793437952
       },
       "history": [
         {
@@ -3008,6 +3168,11 @@
           "at": 1793422759,
           "rate": 1.0,
           "api_ok": true
+        },
+        {
+          "at": 1793437952,
+          "rate": 0.25,
+          "api_ok": true
         }
       ]
     },
@@ -3017,15 +3182,15 @@
       "api": "https://hsckzy888.com/api.php/provide/vod",
       "first_seen": 1793200232,
       "last_ok": null,
-      "last_fail": 1793422759,
+      "last_fail": 1793437952,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
+        "sampled": 8,
         "playable": 0,
         "rate": 0.0,
         "reason": "all sampled streams dead",
-        "ms": 1308,
-        "checked_at": 1793422759
+        "ms": 2333,
+        "checked_at": 1793437952
       },
       "history": [
         {
@@ -3085,6 +3250,11 @@
         },
         {
           "at": 1793422759,
+          "rate": 0.0,
+          "api_ok": true
+        },
+        {
+          "at": 1793437952,
           "rate": 0.0,
           "api_ok": true
         }
@@ -3096,15 +3266,15 @@
       "api": "https://jyzyapi.com/provide/vod",
       "first_seen": 1793200232,
       "last_ok": 1793352510,
-      "last_fail": 1793422759,
+      "last_fail": 1793437952,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
+        "sampled": 8,
         "playable": 0,
         "rate": 0.0,
         "reason": "all sampled streams dead",
-        "ms": 4898,
-        "checked_at": 1793422759
+        "ms": 6298,
+        "checked_at": 1793437952
       },
       "history": [
         {
@@ -3164,6 +3334,11 @@
         },
         {
           "at": 1793422759,
+          "rate": 0.0,
+          "api_ok": true
+        },
+        {
+          "at": 1793437952,
           "rate": 0.0,
           "api_ok": true
         }
@@ -3175,15 +3350,15 @@
       "api": "https://jszyapi.com/api.php/provide/vod",
       "first_seen": 1793200232,
       "last_ok": null,
-      "last_fail": 1793422759,
+      "last_fail": 1793437952,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
+        "sampled": 8,
         "playable": 0,
         "rate": 0.0,
         "reason": "all sampled streams dead",
-        "ms": 528,
-        "checked_at": 1793422759
+        "ms": 6929,
+        "checked_at": 1793437952
       },
       "history": [
         {
@@ -3243,6 +3418,11 @@
         },
         {
           "at": 1793422759,
+          "rate": 0.0,
+          "api_ok": true
+        },
+        {
+          "at": 1793437952,
           "rate": 0.0,
           "api_ok": true
         }
@@ -3253,16 +3433,16 @@
       "name": "naixxzy-com",
       "api": "https://naixxzy.com/api.php/provide/vod",
       "first_seen": 1793200232,
-      "last_ok": 1793422759,
+      "last_ok": 1793437952,
       "last_fail": null,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
-        "playable": 3,
+        "sampled": 8,
+        "playable": 8,
         "rate": 1.0,
         "reason": "",
-        "ms": 3653,
-        "checked_at": 1793422759
+        "ms": 2337,
+        "checked_at": 1793437952
       },
       "history": [
         {
@@ -3322,6 +3502,11 @@
         },
         {
           "at": 1793422759,
+          "rate": 1.0,
+          "api_ok": true
+        },
+        {
+          "at": 1793437952,
           "rate": 1.0,
           "api_ok": true
         }
@@ -3333,15 +3518,15 @@
       "api": "https://subocaiji.com/api.php/provide/vod",
       "first_seen": 1793200232,
       "last_ok": 1793422759,
-      "last_fail": null,
+      "last_fail": 1793437952,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
-        "playable": 3,
-        "rate": 1.0,
-        "reason": "",
-        "ms": 7873,
-        "checked_at": 1793422759
+        "sampled": 8,
+        "playable": 0,
+        "rate": 0.0,
+        "reason": "all sampled streams dead",
+        "ms": 4453,
+        "checked_at": 1793437952
       },
       "history": [
         {
@@ -3403,6 +3588,11 @@
           "at": 1793422759,
           "rate": 1.0,
           "api_ok": true
+        },
+        {
+          "at": 1793437952,
+          "rate": 0.0,
+          "api_ok": true
         }
       ]
     },
@@ -3412,15 +3602,15 @@
       "api": "https://subocj.com/api.php/provide/vod",
       "first_seen": 1793200232,
       "last_ok": 1793422759,
-      "last_fail": null,
+      "last_fail": 1793437952,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
-        "playable": 3,
-        "rate": 1.0,
-        "reason": "",
-        "ms": 5268,
-        "checked_at": 1793422759
+        "sampled": 8,
+        "playable": 0,
+        "rate": 0.0,
+        "reason": "all sampled streams dead",
+        "ms": 3194,
+        "checked_at": 1793437952
       },
       "history": [
         {
@@ -3482,6 +3672,11 @@
           "at": 1793422759,
           "rate": 1.0,
           "api_ok": true
+        },
+        {
+          "at": 1793437952,
+          "rate": 0.0,
+          "api_ok": true
         }
       ]
     },
@@ -3490,16 +3685,16 @@
       "name": "www-heiliaozyapi-com",
       "api": "https://www.heiliaozyapi.com/api.php/provide/vod",
       "first_seen": 1793200232,
-      "last_ok": 1793422760,
+      "last_ok": 1793437952,
       "last_fail": null,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
-        "playable": 3,
+        "sampled": 8,
+        "playable": 8,
         "rate": 1.0,
         "reason": "",
-        "ms": 5820,
-        "checked_at": 1793422760
+        "ms": 4221,
+        "checked_at": 1793437952
       },
       "history": [
         {
@@ -3561,6 +3756,11 @@
           "at": 1793422760,
           "rate": 1.0,
           "api_ok": true
+        },
+        {
+          "at": 1793437952,
+          "rate": 1.0,
+          "api_ok": true
         }
       ]
     },
@@ -3570,15 +3770,15 @@
       "api": "https://www.hongniuzy3.com/api.php/provide/vod",
       "first_seen": 1793200232,
       "last_ok": null,
-      "last_fail": 1793422760,
+      "last_fail": 1793437952,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
+        "sampled": 8,
         "playable": 0,
         "rate": 0.0,
         "reason": "all sampled streams dead",
-        "ms": 3661,
-        "checked_at": 1793422760
+        "ms": 8152,
+        "checked_at": 1793437952
       },
       "history": [
         {
@@ -3640,6 +3840,11 @@
           "at": 1793422760,
           "rate": 0.0,
           "api_ok": true
+        },
+        {
+          "at": 1793437952,
+          "rate": 0.0,
+          "api_ok": true
         }
       ]
     },
@@ -3649,15 +3854,15 @@
       "api": "https://www.hongniuzy2.com/api.php/provide/vod",
       "first_seen": 1793200232,
       "last_ok": null,
-      "last_fail": 1793422760,
+      "last_fail": 1793437952,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
+        "sampled": 8,
         "playable": 0,
         "rate": 0.0,
         "reason": "all sampled streams dead",
-        "ms": 3136,
-        "checked_at": 1793422760
+        "ms": 12098,
+        "checked_at": 1793437952
       },
       "history": [
         {
@@ -3719,6 +3924,11 @@
           "at": 1793422760,
           "rate": 0.0,
           "api_ok": true
+        },
+        {
+          "at": 1793437952,
+          "rate": 0.0,
+          "api_ok": true
         }
       ]
     },
@@ -3727,16 +3937,16 @@
       "name": "www-jingpinx-com",
       "api": "https://www.jingpinx.com/api.php/provide/vod",
       "first_seen": 1793200232,
-      "last_ok": 1793422762,
+      "last_ok": 1793437952,
       "last_fail": null,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
-        "playable": 3,
+        "sampled": 8,
+        "playable": 8,
         "rate": 1.0,
         "reason": "",
-        "ms": 4434,
-        "checked_at": 1793422762
+        "ms": 2946,
+        "checked_at": 1793437952
       },
       "history": [
         {
@@ -3798,6 +4008,11 @@
           "at": 1793422762,
           "rate": 1.0,
           "api_ok": true
+        },
+        {
+          "at": 1793437952,
+          "rate": 1.0,
+          "api_ok": true
         }
       ]
     },
@@ -3807,15 +4022,15 @@
       "api": "https://www.haohuazy.com/api.php/provide/vod",
       "first_seen": 1793200241,
       "last_ok": null,
-      "last_fail": 1793422762,
+      "last_fail": 1793437952,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
+        "sampled": 8,
         "playable": 0,
         "rate": 0.0,
         "reason": "all sampled streams dead",
-        "ms": 1742,
-        "checked_at": 1793422762
+        "ms": 7094,
+        "checked_at": 1793437952
       },
       "history": [
         {
@@ -3877,6 +4092,11 @@
           "at": 1793422762,
           "rate": 0.0,
           "api_ok": true
+        },
+        {
+          "at": 1793437952,
+          "rate": 0.0,
+          "api_ok": true
         }
       ]
     },
@@ -3886,15 +4106,15 @@
       "api": "https://www.huyaapi.com/api.php/provide/vod",
       "first_seen": 1793200243,
       "last_ok": 1793352515,
-      "last_fail": 1793422762,
+      "last_fail": 1793437952,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
+        "sampled": 8,
         "playable": 0,
         "rate": 0.0,
         "reason": "all sampled streams dead",
-        "ms": 1894,
-        "checked_at": 1793422762
+        "ms": 5021,
+        "checked_at": 1793437952
       },
       "history": [
         {
@@ -3956,6 +4176,11 @@
           "at": 1793422762,
           "rate": 0.0,
           "api_ok": true
+        },
+        {
+          "at": 1793437952,
+          "rate": 0.0,
+          "api_ok": true
         }
       ]
     },
@@ -3964,16 +4189,16 @@
       "name": "yutuzy10-com",
       "api": "https://yutuzy10.com/api.php/provide/vod",
       "first_seen": 1793200243,
-      "last_ok": 1793422762,
+      "last_ok": 1793437952,
       "last_fail": null,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
-        "playable": 3,
+        "sampled": 8,
+        "playable": 8,
         "rate": 1.0,
         "reason": "",
-        "ms": 3207,
-        "checked_at": 1793422762
+        "ms": 2096,
+        "checked_at": 1793437952
       },
       "history": [
         {
@@ -4035,6 +4260,11 @@
           "at": 1793422762,
           "rate": 1.0,
           "api_ok": true
+        },
+        {
+          "at": 1793437952,
+          "rate": 1.0,
+          "api_ok": true
         }
       ]
     },
@@ -4043,16 +4273,16 @@
       "name": "bf-xoxowin86cisyap-com",
       "api": "https://bf.xoxowin86cisyap.com/api.php/provide/vod",
       "first_seen": 1793200243,
-      "last_ok": 1793422768,
+      "last_ok": 1793437952,
       "last_fail": null,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
-        "playable": 2,
-        "rate": 0.667,
+        "sampled": 8,
+        "playable": 5,
+        "rate": 0.625,
         "reason": "",
-        "ms": 8436,
-        "checked_at": 1793422768
+        "ms": 16213,
+        "checked_at": 1793437952
       },
       "history": [
         {
@@ -4114,6 +4344,11 @@
           "at": 1793422768,
           "rate": 0.667,
           "api_ok": true
+        },
+        {
+          "at": 1793437952,
+          "rate": 0.625,
+          "api_ok": true
         }
       ]
     },
@@ -4122,16 +4357,16 @@
       "name": "by-bfzyapi-com",
       "api": "http://by.bfzyapi.com/api.php/provide/vod",
       "first_seen": 1793200271,
-      "last_ok": 1793422775,
+      "last_ok": 1793437952,
       "last_fail": null,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
-        "playable": 1,
-        "rate": 0.333,
+        "sampled": 8,
+        "playable": 5,
+        "rate": 0.625,
         "reason": "",
-        "ms": 14944,
-        "checked_at": 1793422775
+        "ms": 13974,
+        "checked_at": 1793437952
       },
       "history": [
         {
@@ -4193,6 +4428,11 @@
           "at": 1793422775,
           "rate": 0.333,
           "api_ok": true
+        },
+        {
+          "at": 1793437952,
+          "rate": 0.625,
+          "api_ok": true
         }
       ]
     },
@@ -4201,16 +4441,16 @@
       "name": "hong-hgyx-vip",
       "api": "https://hong.hgyx.vip/api.php/provide/vod",
       "first_seen": 1793200271,
-      "last_ok": 1793398187,
-      "last_fail": 1793422775,
+      "last_ok": 1793437952,
+      "last_fail": null,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
-        "playable": 0,
-        "rate": 0.0,
-        "reason": "all sampled streams dead",
-        "ms": 3170,
-        "checked_at": 1793422775
+        "sampled": 8,
+        "playable": 2,
+        "rate": 0.25,
+        "reason": "",
+        "ms": 13562,
+        "checked_at": 1793437952
       },
       "history": [
         {
@@ -4272,6 +4512,11 @@
           "at": 1793422775,
           "rate": 0.0,
           "api_ok": true
+        },
+        {
+          "at": 1793437952,
+          "rate": 0.25,
+          "api_ok": true
         }
       ]
     },
@@ -4281,15 +4526,15 @@
       "api": "https://caiji.dbzy5.com/api.php/provide/vod",
       "first_seen": 1793200292,
       "last_ok": 1793265291,
-      "last_fail": 1793422775,
+      "last_fail": 1793437952,
       "overseas": {
         "api_ok": false,
         "sampled": 0,
         "playable": 0,
         "rate": 0.0,
         "reason": "api http 0",
-        "ms": 129,
-        "checked_at": 1793422775
+        "ms": 96,
+        "checked_at": 1793437952
       },
       "history": [
         {
@@ -4351,6 +4596,11 @@
           "at": 1793422775,
           "rate": 0.0,
           "api_ok": false
+        },
+        {
+          "at": 1793437952,
+          "rate": 0.0,
+          "api_ok": false
         }
       ]
     },
@@ -4359,16 +4609,16 @@
       "name": "自动发现·155api.com",
       "api": "https://155api.com/api.php/provide/vod",
       "first_seen": 1793203721,
-      "last_ok": 1793422775,
+      "last_ok": 1793437952,
       "last_fail": null,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
-        "playable": 3,
+        "sampled": 8,
+        "playable": 8,
         "rate": 1.0,
         "reason": "",
-        "ms": 7801,
-        "checked_at": 1793422775
+        "ms": 24933,
+        "checked_at": 1793437952
       },
       "history": [
         {
@@ -4425,6 +4675,11 @@
           "at": 1793422775,
           "rate": 1.0,
           "api_ok": true
+        },
+        {
+          "at": 1793437952,
+          "rate": 1.0,
+          "api_ok": true
         }
       ]
     },
@@ -4434,15 +4689,15 @@
       "api": "https://api.ddapi.cc/api.php/provide/vod",
       "first_seen": 1793203721,
       "last_ok": 1793226468,
-      "last_fail": 1793422775,
+      "last_fail": 1793437952,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
+        "sampled": 8,
         "playable": 0,
         "rate": 0.0,
         "reason": "all sampled streams dead",
-        "ms": 770,
-        "checked_at": 1793422775
+        "ms": 952,
+        "checked_at": 1793437952
       },
       "history": [
         {
@@ -4499,6 +4754,11 @@
           "at": 1793422775,
           "rate": 0.0,
           "api_ok": true
+        },
+        {
+          "at": 1793437952,
+          "rate": 0.0,
+          "api_ok": true
         }
       ]
     },
@@ -4507,16 +4767,16 @@
       "name": "自动发现·slapibf.com",
       "api": "https://slapibf.com/api.php/provide/vod",
       "first_seen": 1793203721,
-      "last_ok": 1793422775,
+      "last_ok": 1793437956,
       "last_fail": null,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
-        "playable": 3,
+        "sampled": 8,
+        "playable": 8,
         "rate": 1.0,
         "reason": "",
-        "ms": 7871,
-        "checked_at": 1793422775
+        "ms": 25780,
+        "checked_at": 1793437956
       },
       "history": [
         {
@@ -4573,6 +4833,11 @@
           "at": 1793422775,
           "rate": 1.0,
           "api_ok": true
+        },
+        {
+          "at": 1793437956,
+          "rate": 1.0,
+          "api_ok": true
         }
       ]
     },
@@ -4581,16 +4846,16 @@
       "name": "自动发现·apiyutu.com",
       "api": "https://apiyutu.com/api.php/provide/vod",
       "first_seen": 1793203721,
-      "last_ok": 1793422775,
+      "last_ok": 1793437956,
       "last_fail": null,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
-        "playable": 3,
+        "sampled": 8,
+        "playable": 8,
         "rate": 1.0,
         "reason": "",
-        "ms": 3051,
-        "checked_at": 1793422775
+        "ms": 1653,
+        "checked_at": 1793437956
       },
       "history": [
         {
@@ -4647,6 +4912,11 @@
           "at": 1793422775,
           "rate": 1.0,
           "api_ok": true
+        },
+        {
+          "at": 1793437956,
+          "rate": 1.0,
+          "api_ok": true
         }
       ]
     },
@@ -4655,16 +4925,16 @@
       "name": "自动发现·aosikazy.com",
       "api": "https://aosikazy.com/api.php/provide/vod",
       "first_seen": 1793203721,
-      "last_ok": 1793422775,
+      "last_ok": 1793437956,
       "last_fail": null,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
-        "playable": 3,
+        "sampled": 8,
+        "playable": 8,
         "rate": 1.0,
         "reason": "",
-        "ms": 4802,
-        "checked_at": 1793422775
+        "ms": 2385,
+        "checked_at": 1793437956
       },
       "history": [
         {
@@ -4721,6 +4991,11 @@
           "at": 1793422775,
           "rate": 1.0,
           "api_ok": true
+        },
+        {
+          "at": 1793437956,
+          "rate": 1.0,
+          "api_ok": true
         }
       ]
     },
@@ -4729,16 +5004,16 @@
       "name": "自动发现·lbapi9.com",
       "api": "https://lbapi9.com/api.php/provide/vod",
       "first_seen": 1793203721,
-      "last_ok": 1793422775,
+      "last_ok": 1793437963,
       "last_fail": null,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
-        "playable": 3,
-        "rate": 1.0,
+        "sampled": 8,
+        "playable": 7,
+        "rate": 0.875,
         "reason": "",
-        "ms": 7504,
-        "checked_at": 1793422775
+        "ms": 21355,
+        "checked_at": 1793437963
       },
       "history": [
         {
@@ -4795,6 +5070,11 @@
           "at": 1793422775,
           "rate": 1.0,
           "api_ok": true
+        },
+        {
+          "at": 1793437963,
+          "rate": 0.875,
+          "api_ok": true
         }
       ]
     },
@@ -4803,16 +5083,16 @@
       "name": "自动发现·shayuapi.com",
       "api": "https://shayuapi.com/api.php/provide/vod",
       "first_seen": 1793203721,
-      "last_ok": 1793422775,
+      "last_ok": 1793437963,
       "last_fail": null,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
-        "playable": 3,
+        "sampled": 8,
+        "playable": 8,
         "rate": 1.0,
         "reason": "",
-        "ms": 7336,
-        "checked_at": 1793422775
+        "ms": 21549,
+        "checked_at": 1793437963
       },
       "history": [
         {
@@ -4869,6 +5149,11 @@
           "at": 1793422775,
           "rate": 1.0,
           "api_ok": true
+        },
+        {
+          "at": 1793437963,
+          "rate": 1.0,
+          "api_ok": true
         }
       ]
     },
@@ -4877,16 +5162,16 @@
       "name": "自动发现·m3u8.apiyhzy.com",
       "api": "https://m3u8.apiyhzy.com/api.php/provide/vod",
       "first_seen": 1793203721,
-      "last_ok": 1793422775,
+      "last_ok": 1793437963,
       "last_fail": null,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
-        "playable": 3,
+        "sampled": 8,
+        "playable": 8,
         "rate": 1.0,
         "reason": "",
-        "ms": 5034,
-        "checked_at": 1793422775
+        "ms": 5955,
+        "checked_at": 1793437963
       },
       "history": [
         {
@@ -4941,6 +5226,11 @@
         },
         {
           "at": 1793422775,
+          "rate": 1.0,
+          "api_ok": true
+        },
+        {
+          "at": 1793437963,
           "rate": 1.0,
           "api_ok": true
         }
@@ -4952,15 +5242,15 @@
       "api": "http://sdzyapi.com/api.php/provide/vod",
       "first_seen": 1793203721,
       "last_ok": null,
-      "last_fail": 1793422775,
+      "last_fail": 1793437963,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
+        "sampled": 8,
         "playable": 0,
         "rate": 0.0,
         "reason": "all sampled streams dead",
-        "ms": 1128,
-        "checked_at": 1793422775
+        "ms": 950,
+        "checked_at": 1793437963
       },
       "history": [
         {
@@ -5015,6 +5305,11 @@
         },
         {
           "at": 1793422775,
+          "rate": 0.0,
+          "api_ok": true
+        },
+        {
+          "at": 1793437963,
           "rate": 0.0,
           "api_ok": true
         }
@@ -5026,15 +5321,15 @@
       "api": "https://api.guangsuapi.com/api.php/provide/vod",
       "first_seen": 1793203721,
       "last_ok": null,
-      "last_fail": 1793422775,
+      "last_fail": 1793437963,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
+        "sampled": 8,
         "playable": 0,
         "rate": 0.0,
         "reason": "all sampled streams dead",
-        "ms": 490,
-        "checked_at": 1793422775
+        "ms": 2391,
+        "checked_at": 1793437963
       },
       "history": [
         {
@@ -5089,6 +5384,11 @@
         },
         {
           "at": 1793422775,
+          "rate": 0.0,
+          "api_ok": true
+        },
+        {
+          "at": 1793437963,
           "rate": 0.0,
           "api_ok": true
         }
@@ -5100,15 +5400,15 @@
       "api": "https://p2100.net/api.php/provide/vod",
       "first_seen": 1793203721,
       "last_ok": null,
-      "last_fail": 1793422775,
+      "last_fail": 1793437963,
       "overseas": {
         "api_ok": false,
         "sampled": 0,
         "playable": 0,
         "rate": 0.0,
         "reason": "api http 403",
-        "ms": 61,
-        "checked_at": 1793422775
+        "ms": 76,
+        "checked_at": 1793437963
       },
       "history": [
         {
@@ -5165,6 +5465,11 @@
           "at": 1793422775,
           "rate": 0.0,
           "api_ok": false
+        },
+        {
+          "at": 1793437963,
+          "rate": 0.0,
+          "api_ok": false
         }
       ]
     },
@@ -5173,16 +5478,16 @@
       "name": "自动发现·lovedan.net",
       "api": "https://lovedan.net/api.php/provide/vod",
       "first_seen": 1793203721,
-      "last_ok": 1793363675,
-      "last_fail": 1793422775,
+      "last_ok": 1793437967,
+      "last_fail": null,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
-        "playable": 0,
-        "rate": 0.0,
-        "reason": "all sampled streams dead",
-        "ms": 3522,
-        "checked_at": 1793422775
+        "sampled": 8,
+        "playable": 4,
+        "rate": 0.5,
+        "reason": "",
+        "ms": 15298,
+        "checked_at": 1793437967
       },
       "history": [
         {
@@ -5239,6 +5544,11 @@
           "at": 1793422775,
           "rate": 0.0,
           "api_ok": true
+        },
+        {
+          "at": 1793437967,
+          "rate": 0.5,
+          "api_ok": true
         }
       ]
     },
@@ -5248,15 +5558,15 @@
       "api": "https://api.niuniuzy.me/api.php/provide/vod",
       "first_seen": 1793203721,
       "last_ok": null,
-      "last_fail": 1793422775,
+      "last_fail": 1793437967,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
+        "sampled": 8,
         "playable": 0,
         "rate": 0.0,
         "reason": "all sampled streams dead",
-        "ms": 1903,
-        "checked_at": 1793422775
+        "ms": 950,
+        "checked_at": 1793437967
       },
       "history": [
         {
@@ -5313,6 +5623,11 @@
           "at": 1793422775,
           "rate": 0.0,
           "api_ok": true
+        },
+        {
+          "at": 1793437967,
+          "rate": 0.0,
+          "api_ok": true
         }
       ]
     },
@@ -5322,15 +5637,15 @@
       "api": "http://jinyingzy.com/provide/vod",
       "first_seen": 1793203721,
       "last_ok": 1793352546,
-      "last_fail": 1793422784,
+      "last_fail": 1793437967,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
+        "sampled": 8,
         "playable": 0,
         "rate": 0.0,
         "reason": "all sampled streams dead",
-        "ms": 12307,
-        "checked_at": 1793422784
+        "ms": 5996,
+        "checked_at": 1793437967
       },
       "history": [
         {
@@ -5387,6 +5702,11 @@
           "at": 1793422784,
           "rate": 0.0,
           "api_ok": true
+        },
+        {
+          "at": 1793437967,
+          "rate": 0.0,
+          "api_ok": true
         }
       ]
     },
@@ -5396,15 +5716,15 @@
       "api": "http://www.madouse.la/api.php/provide/vod",
       "first_seen": 1793203721,
       "last_ok": null,
-      "last_fail": 1793422784,
+      "last_fail": 1793437967,
       "overseas": {
         "api_ok": true,
         "sampled": 0,
         "playable": 0,
         "rate": 0.0,
         "reason": "no play url in feeds",
-        "ms": 3099,
-        "checked_at": 1793422784
+        "ms": 3055,
+        "checked_at": 1793437967
       },
       "history": [
         {
@@ -5461,6 +5781,11 @@
           "at": 1793422784,
           "rate": 0.0,
           "api_ok": true
+        },
+        {
+          "at": 1793437967,
+          "rate": 0.0,
+          "api_ok": true
         }
       ]
     },
@@ -5469,16 +5794,16 @@
       "name": "自动发现·apilj.com",
       "api": "https://apilj.com/api.php/provide/vod",
       "first_seen": 1793203724,
-      "last_ok": 1793422784,
+      "last_ok": 1793437974,
       "last_fail": null,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
-        "playable": 3,
+        "sampled": 8,
+        "playable": 8,
         "rate": 1.0,
         "reason": "",
-        "ms": 5487,
-        "checked_at": 1793422784
+        "ms": 18605,
+        "checked_at": 1793437974
       },
       "history": [
         {
@@ -5535,6 +5860,11 @@
           "at": 1793422784,
           "rate": 1.0,
           "api_ok": true
+        },
+        {
+          "at": 1793437974,
+          "rate": 1.0,
+          "api_ok": true
         }
       ]
     },
@@ -5543,16 +5873,16 @@
       "name": "自动发现·fhapi9.com",
       "api": "http://fhapi9.com/api.php/provide/vod",
       "first_seen": 1793203725,
-      "last_ok": 1793422784,
+      "last_ok": 1793437979,
       "last_fail": null,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
-        "playable": 3,
+        "sampled": 8,
+        "playable": 8,
         "rate": 1.0,
         "reason": "",
-        "ms": 5823,
-        "checked_at": 1793422784
+        "ms": 23372,
+        "checked_at": 1793437979
       },
       "history": [
         {
@@ -5607,6 +5937,11 @@
         },
         {
           "at": 1793422784,
+          "rate": 1.0,
+          "api_ok": true
+        },
+        {
+          "at": 1793437979,
           "rate": 1.0,
           "api_ok": true
         }
@@ -5618,15 +5953,15 @@
       "api": "https://cj.lzcaiji.com/api.php/provide/vod",
       "first_seen": 1793203725,
       "last_ok": null,
-      "last_fail": 1793422784,
+      "last_fail": 1793437979,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
+        "sampled": 8,
         "playable": 0,
         "rate": 0.0,
         "reason": "all sampled streams dead",
-        "ms": 2937,
-        "checked_at": 1793422784
+        "ms": 5621,
+        "checked_at": 1793437979
       },
       "history": [
         {
@@ -5683,6 +6018,11 @@
           "at": 1793422784,
           "rate": 0.0,
           "api_ok": true
+        },
+        {
+          "at": 1793437979,
+          "rate": 0.0,
+          "api_ok": true
         }
       ]
     },
@@ -5691,16 +6031,16 @@
       "name": "自动发现·api.11bat.com",
       "api": "http://api.11bat.com/api.php/provide/vod",
       "first_seen": 1793203729,
-      "last_ok": 1793422784,
+      "last_ok": 1793437983,
       "last_fail": null,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
-        "playable": 3,
+        "sampled": 8,
+        "playable": 8,
         "rate": 1.0,
         "reason": "",
-        "ms": 6651,
-        "checked_at": 1793422784
+        "ms": 19902,
+        "checked_at": 1793437983
       },
       "history": [
         {
@@ -5757,6 +6097,11 @@
           "at": 1793422784,
           "rate": 1.0,
           "api_ok": true
+        },
+        {
+          "at": 1793437983,
+          "rate": 1.0,
+          "api_ok": true
         }
       ]
     },
@@ -5765,16 +6110,16 @@
       "name": "自动发现·ikunzyapi.com",
       "api": "https://ikunzyapi.com/api.php/provide/vod",
       "first_seen": 1793226481,
-      "last_ok": 1793422784,
+      "last_ok": 1793437983,
       "last_fail": null,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
-        "playable": 3,
+        "sampled": 8,
+        "playable": 8,
         "rate": 1.0,
         "reason": "",
-        "ms": 3531,
-        "checked_at": 1793422784
+        "ms": 2912,
+        "checked_at": 1793437983
       },
       "history": [
         {
@@ -5824,6 +6169,11 @@
         },
         {
           "at": 1793422784,
+          "rate": 1.0,
+          "api_ok": true
+        },
+        {
+          "at": 1793437983,
           "rate": 1.0,
           "api_ok": true
         }
@@ -5835,15 +6185,15 @@
       "api": "https://api.wujinapi.me/api.php/provide/vod",
       "first_seen": 1793226481,
       "last_ok": null,
-      "last_fail": 1793422784,
+      "last_fail": 1793437983,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
+        "sampled": 8,
         "playable": 0,
         "rate": 0.0,
         "reason": "all sampled streams dead",
-        "ms": 1090,
-        "checked_at": 1793422784
+        "ms": 471,
+        "checked_at": 1793437983
       },
       "history": [
         {
@@ -5895,6 +6245,11 @@
           "at": 1793422784,
           "rate": 0.0,
           "api_ok": true
+        },
+        {
+          "at": 1793437983,
+          "rate": 0.0,
+          "api_ok": true
         }
       ]
     },
@@ -5904,15 +6259,15 @@
       "api": "https://api.1080zyku.com/inc/apijson.php/provide/vod",
       "first_seen": 1793226481,
       "last_ok": null,
-      "last_fail": 1793422784,
+      "last_fail": 1793437983,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
+        "sampled": 8,
         "playable": 0,
         "rate": 0.0,
         "reason": "all sampled streams dead",
-        "ms": 5291,
-        "checked_at": 1793422784
+        "ms": 11866,
+        "checked_at": 1793437983
       },
       "history": [
         {
@@ -5962,6 +6317,11 @@
         },
         {
           "at": 1793422784,
+          "rate": 0.0,
+          "api_ok": true
+        },
+        {
+          "at": 1793437983,
           "rate": 0.0,
           "api_ok": true
         }
@@ -5973,15 +6333,15 @@
       "api": "https://hhzyapi.com/api.php/provide/vod",
       "first_seen": 1793226481,
       "last_ok": null,
-      "last_fail": 1793422784,
+      "last_fail": 1793437983,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
+        "sampled": 8,
         "playable": 0,
         "rate": 0.0,
         "reason": "all sampled streams dead",
-        "ms": 584,
-        "checked_at": 1793422784
+        "ms": 3376,
+        "checked_at": 1793437983
       },
       "history": [
         {
@@ -6031,6 +6391,11 @@
         },
         {
           "at": 1793422784,
+          "rate": 0.0,
+          "api_ok": true
+        },
+        {
+          "at": 1793437983,
           "rate": 0.0,
           "api_ok": true
         }
@@ -6042,15 +6407,15 @@
       "api": "https://api.wujinapi.net/api.php/provide/vod",
       "first_seen": 1793226481,
       "last_ok": null,
-      "last_fail": 1793422784,
+      "last_fail": 1793437983,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
+        "sampled": 8,
         "playable": 0,
         "rate": 0.0,
         "reason": "all sampled streams dead",
-        "ms": 1258,
-        "checked_at": 1793422784
+        "ms": 582,
+        "checked_at": 1793437983
       },
       "history": [
         {
@@ -6100,6 +6465,11 @@
         },
         {
           "at": 1793422784,
+          "rate": 0.0,
+          "api_ok": true
+        },
+        {
+          "at": 1793437983,
           "rate": 0.0,
           "api_ok": true
         }
@@ -6111,15 +6481,15 @@
       "api": "https://91md.me/api.php/provide/vod",
       "first_seen": 1793226481,
       "last_ok": null,
-      "last_fail": 1793422784,
+      "last_fail": 1793437983,
       "overseas": {
         "api_ok": true,
         "sampled": 0,
         "playable": 0,
         "rate": 0.0,
         "reason": "no play url in feeds",
-        "ms": 426,
-        "checked_at": 1793422784
+        "ms": 301,
+        "checked_at": 1793437983
       },
       "history": [
         {
@@ -6171,6 +6541,11 @@
           "at": 1793422784,
           "rate": 0.0,
           "api_ok": true
+        },
+        {
+          "at": 1793437983,
+          "rate": 0.0,
+          "api_ok": true
         }
       ]
     },
@@ -6180,15 +6555,15 @@
       "api": "http://cj.lziapi.com/api.php/provide/vod/`",
       "first_seen": 1793226481,
       "last_ok": null,
-      "last_fail": 1793422784,
+      "last_fail": 1793437983,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
+        "sampled": 8,
         "playable": 0,
         "rate": 0.0,
         "reason": "all sampled streams dead",
-        "ms": 2028,
-        "checked_at": 1793422784
+        "ms": 5057,
+        "checked_at": 1793437983
       },
       "history": [
         {
@@ -6240,6 +6615,11 @@
           "at": 1793422784,
           "rate": 0.0,
           "api_ok": true
+        },
+        {
+          "at": 1793437983,
+          "rate": 0.0,
+          "api_ok": true
         }
       ]
     },
@@ -6249,15 +6629,15 @@
       "api": "http://www.ffzy.tv/api.php/provide/vod/`",
       "first_seen": 1793226481,
       "last_ok": null,
-      "last_fail": 1793422786,
+      "last_fail": 1793437983,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
+        "sampled": 8,
         "playable": 0,
         "rate": 0.0,
         "reason": "all sampled streams dead",
-        "ms": 5973,
-        "checked_at": 1793422786
+        "ms": 11114,
+        "checked_at": 1793437983
       },
       "history": [
         {
@@ -6307,6 +6687,11 @@
         },
         {
           "at": 1793422786,
+          "rate": 0.0,
+          "api_ok": true
+        },
+        {
+          "at": 1793437983,
           "rate": 0.0,
           "api_ok": true
         }
@@ -6318,15 +6703,15 @@
       "api": "https://caiji.kuaichezy.org/api.php/provide/vod",
       "first_seen": 1793226481,
       "last_ok": null,
-      "last_fail": 1793422786,
+      "last_fail": 1793437983,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
+        "sampled": 8,
         "playable": 0,
         "rate": 0.0,
         "reason": "all sampled streams dead",
-        "ms": 2063,
-        "checked_at": 1793422786
+        "ms": 1036,
+        "checked_at": 1793437983
       },
       "history": [
         {
@@ -6376,6 +6761,11 @@
         },
         {
           "at": 1793422786,
+          "rate": 0.0,
+          "api_ok": true
+        },
+        {
+          "at": 1793437983,
           "rate": 0.0,
           "api_ok": true
         }
@@ -6387,15 +6777,15 @@
       "api": "https://api.wujinapi.me/api.php/provide/vod/`",
       "first_seen": 1793226481,
       "last_ok": null,
-      "last_fail": 1793422786,
+      "last_fail": 1793437983,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
+        "sampled": 8,
         "playable": 0,
         "rate": 0.0,
         "reason": "all sampled streams dead",
-        "ms": 988,
-        "checked_at": 1793422786
+        "ms": 534,
+        "checked_at": 1793437983
       },
       "history": [
         {
@@ -6447,6 +6837,11 @@
           "at": 1793422786,
           "rate": 0.0,
           "api_ok": true
+        },
+        {
+          "at": 1793437983,
+          "rate": 0.0,
+          "api_ok": true
         }
       ]
     },
@@ -6456,15 +6851,15 @@
       "api": "https://subocj.com/api.php/provide/vod/at/json`",
       "first_seen": 1793226481,
       "last_ok": 1793422787,
-      "last_fail": null,
+      "last_fail": 1793437983,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
-        "playable": 3,
-        "rate": 1.0,
-        "reason": "",
-        "ms": 4951,
-        "checked_at": 1793422787
+        "sampled": 8,
+        "playable": 0,
+        "rate": 0.0,
+        "reason": "all sampled streams dead",
+        "ms": 1941,
+        "checked_at": 1793437983
       },
       "history": [
         {
@@ -6516,6 +6911,11 @@
           "at": 1793422787,
           "rate": 1.0,
           "api_ok": true
+        },
+        {
+          "at": 1793437983,
+          "rate": 0.0,
+          "api_ok": true
         }
       ]
     },
@@ -6524,16 +6924,16 @@
       "name": "自动发现·m3u8.apiyhzy.com",
       "api": "https://m3u8.apiyhzy.com/api.php/provide/vod/`",
       "first_seen": 1793226481,
-      "last_ok": 1793422787,
+      "last_ok": 1793437983,
       "last_fail": null,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
-        "playable": 3,
+        "sampled": 8,
+        "playable": 8,
         "rate": 1.0,
         "reason": "",
-        "ms": 4757,
-        "checked_at": 1793422787
+        "ms": 4798,
+        "checked_at": 1793437983
       },
       "history": [
         {
@@ -6583,6 +6983,11 @@
         },
         {
           "at": 1793422787,
+          "rate": 1.0,
+          "api_ok": true
+        },
+        {
+          "at": 1793437983,
           "rate": 1.0,
           "api_ok": true
         }
@@ -6594,15 +6999,15 @@
       "api": "http://sdzyapi.com/api.php/provide/vod/`",
       "first_seen": 1793226481,
       "last_ok": null,
-      "last_fail": 1793422787,
+      "last_fail": 1793437983,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
+        "sampled": 8,
         "playable": 0,
         "rate": 0.0,
         "reason": "all sampled streams dead",
-        "ms": 1176,
-        "checked_at": 1793422787
+        "ms": 577,
+        "checked_at": 1793437983
       },
       "history": [
         {
@@ -6654,6 +7059,11 @@
           "at": 1793422787,
           "rate": 0.0,
           "api_ok": true
+        },
+        {
+          "at": 1793437983,
+          "rate": 0.0,
+          "api_ok": true
         }
       ]
     },
@@ -6663,15 +7073,15 @@
       "api": "https://www.hongniuzy2.com/api.php/provide/vod/`",
       "first_seen": 1793226481,
       "last_ok": null,
-      "last_fail": 1793422789,
+      "last_fail": 1793437984,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
+        "sampled": 8,
         "playable": 0,
         "rate": 0.0,
         "reason": "all sampled streams dead",
-        "ms": 4724,
-        "checked_at": 1793422789
+        "ms": 8046,
+        "checked_at": 1793437984
       },
       "history": [
         {
@@ -6723,6 +7133,11 @@
           "at": 1793422789,
           "rate": 0.0,
           "api_ok": true
+        },
+        {
+          "at": 1793437984,
+          "rate": 0.0,
+          "api_ok": true
         }
       ]
     },
@@ -6731,16 +7146,16 @@
       "name": "自动发现·api.maoyanapi.top",
       "api": "https://api.maoyanapi.top/api.php/provide/vod/at/xml`",
       "first_seen": 1793226481,
-      "last_ok": 1793422809,
+      "last_ok": 1793438001,
       "last_fail": null,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
-        "playable": 2,
-        "rate": 0.667,
+        "sampled": 8,
+        "playable": 7,
+        "rate": 0.875,
         "reason": "",
-        "ms": 25011,
-        "checked_at": 1793422809
+        "ms": 23960,
+        "checked_at": 1793438001
       },
       "history": [
         {
@@ -6792,6 +7207,11 @@
           "at": 1793422809,
           "rate": 0.667,
           "api_ok": true
+        },
+        {
+          "at": 1793438001,
+          "rate": 0.875,
+          "api_ok": true
         }
       ]
     },
@@ -6800,16 +7220,16 @@
       "name": "自动发现·bfzyapi.com",
       "api": "https://bfzyapi.com/api.php/provide/vod/at/xml`",
       "first_seen": 1793226483,
-      "last_ok": 1793422809,
+      "last_ok": 1793438001,
       "last_fail": null,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
-        "playable": 2,
-        "rate": 0.667,
+        "sampled": 8,
+        "playable": 5,
+        "rate": 0.625,
         "reason": "",
-        "ms": 7502,
-        "checked_at": 1793422809
+        "ms": 13133,
+        "checked_at": 1793438001
       },
       "history": [
         {
@@ -6861,6 +7281,11 @@
           "at": 1793422809,
           "rate": 0.667,
           "api_ok": true
+        },
+        {
+          "at": 1793438001,
+          "rate": 0.625,
+          "api_ok": true
         }
       ]
     },
@@ -6870,15 +7295,15 @@
       "api": "https://api.niuniuzy.me/api.php/provide/vod/from/nnm3u8/at/xml`",
       "first_seen": 1793226483,
       "last_ok": null,
-      "last_fail": 1793422809,
+      "last_fail": 1793438001,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
+        "sampled": 8,
         "playable": 0,
         "rate": 0.0,
         "reason": "all sampled streams dead",
-        "ms": 1176,
-        "checked_at": 1793422809
+        "ms": 703,
+        "checked_at": 1793438001
       },
       "history": [
         {
@@ -6930,6 +7355,11 @@
           "at": 1793422809,
           "rate": 0.0,
           "api_ok": true
+        },
+        {
+          "at": 1793438001,
+          "rate": 0.0,
+          "api_ok": true
         }
       ]
     },
@@ -6939,15 +7369,15 @@
       "api": "https://www.huyaapi.com/api.php/provide/vod/at/json`",
       "first_seen": 1793226483,
       "last_ok": 1793352588,
-      "last_fail": 1793422809,
+      "last_fail": 1793438001,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
+        "sampled": 8,
         "playable": 0,
         "rate": 0.0,
         "reason": "all sampled streams dead",
-        "ms": 1350,
-        "checked_at": 1793422809
+        "ms": 3350,
+        "checked_at": 1793438001
       },
       "history": [
         {
@@ -6999,6 +7429,11 @@
           "at": 1793422809,
           "rate": 0.0,
           "api_ok": true
+        },
+        {
+          "at": 1793438001,
+          "rate": 0.0,
+          "api_ok": true
         }
       ]
     },
@@ -7008,15 +7443,15 @@
       "api": "https://jyzyapi.com/provide/vod/from/jinyingyun/at/json`",
       "first_seen": 1793226483,
       "last_ok": null,
-      "last_fail": 1793422809,
+      "last_fail": 1793438001,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
+        "sampled": 8,
         "playable": 0,
         "rate": 0.0,
         "reason": "all sampled streams dead",
-        "ms": 3915,
-        "checked_at": 1793422809
+        "ms": 9246,
+        "checked_at": 1793438001
       },
       "history": [
         {
@@ -7068,6 +7503,11 @@
           "at": 1793422809,
           "rate": 0.0,
           "api_ok": true
+        },
+        {
+          "at": 1793438001,
+          "rate": 0.0,
+          "api_ok": true
         }
       ]
     },
@@ -7077,15 +7517,15 @@
       "api": "https://caiji.dbzy5.com/api.php/provide/vod/at/josn/`",
       "first_seen": 1793226485,
       "last_ok": 1793265346,
-      "last_fail": 1793422809,
+      "last_fail": 1793438001,
       "overseas": {
         "api_ok": false,
         "sampled": 0,
         "playable": 0,
         "rate": 0.0,
         "reason": "api http 0",
-        "ms": 66,
-        "checked_at": 1793422809
+        "ms": 88,
+        "checked_at": 1793438001
       },
       "history": [
         {
@@ -7137,6 +7577,11 @@
           "at": 1793422809,
           "rate": 0.0,
           "api_ok": false
+        },
+        {
+          "at": 1793438001,
+          "rate": 0.0,
+          "api_ok": false
         }
       ]
     },
@@ -7145,16 +7590,16 @@
       "name": "自动发现·caiji.maotaizy.cc",
       "api": "https://caiji.maotaizy.cc/api.php/provide/vod/at/josn/`",
       "first_seen": 1793226487,
-      "last_ok": 1793422809,
+      "last_ok": 1793438036,
       "last_fail": null,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
+        "sampled": 8,
         "playable": 3,
-        "rate": 1.0,
+        "rate": 0.375,
         "reason": "",
-        "ms": 15329,
-        "checked_at": 1793422809
+        "ms": 53409,
+        "checked_at": 1793438036
       },
       "history": [
         {
@@ -7206,6 +7651,11 @@
           "at": 1793422809,
           "rate": 1.0,
           "api_ok": true
+        },
+        {
+          "at": 1793438036,
+          "rate": 0.375,
+          "api_ok": true
         }
       ]
     },
@@ -7214,16 +7664,16 @@
       "name": "自动发现·ikunzyapi.com",
       "api": "https://ikunzyapi.com/api.php/provide/vod/from/ikm3u8/at/json`",
       "first_seen": 1793226487,
-      "last_ok": 1793422809,
+      "last_ok": 1793438036,
       "last_fail": null,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
-        "playable": 3,
+        "sampled": 8,
+        "playable": 8,
         "rate": 1.0,
         "reason": "",
-        "ms": 3194,
-        "checked_at": 1793422809
+        "ms": 1156,
+        "checked_at": 1793438036
       },
       "history": [
         {
@@ -7273,6 +7723,11 @@
         },
         {
           "at": 1793422809,
+          "rate": 1.0,
+          "api_ok": true
+        },
+        {
+          "at": 1793438036,
           "rate": 1.0,
           "api_ok": true
         }
@@ -7283,16 +7738,16 @@
       "name": "自动发现·yhzy.cc",
       "api": "https://yhzy.cc/api.php/provide/vod",
       "first_seen": 1793226487,
-      "last_ok": 1793422809,
+      "last_ok": 1793438036,
       "last_fail": null,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
-        "playable": 3,
+        "sampled": 8,
+        "playable": 8,
         "rate": 1.0,
         "reason": "",
-        "ms": 5009,
-        "checked_at": 1793422809
+        "ms": 4762,
+        "checked_at": 1793438036
       },
       "history": [
         {
@@ -7344,6 +7799,11 @@
           "at": 1793422809,
           "rate": 1.0,
           "api_ok": true
+        },
+        {
+          "at": 1793438036,
+          "rate": 1.0,
+          "api_ok": true
         }
       ]
     },
@@ -7352,16 +7812,16 @@
       "name": "自动发现·dadiapi.com",
       "api": "https://dadiapi.com/api.php/provide/vod",
       "first_seen": 1793226491,
-      "last_ok": 1793422809,
+      "last_ok": 1793438036,
       "last_fail": null,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
-        "playable": 3,
+        "sampled": 8,
+        "playable": 8,
         "rate": 1.0,
         "reason": "",
-        "ms": 6082,
-        "checked_at": 1793422809
+        "ms": 19458,
+        "checked_at": 1793438036
       },
       "history": [
         {
@@ -7411,6 +7871,11 @@
         },
         {
           "at": 1793422809,
+          "rate": 1.0,
+          "api_ok": true
+        },
+        {
+          "at": 1793438036,
           "rate": 1.0,
           "api_ok": true
         }
@@ -7422,15 +7887,15 @@
       "api": "http://bt4.cc/api.php/provide/vod",
       "first_seen": 1793226491,
       "last_ok": null,
-      "last_fail": 1793422809,
+      "last_fail": 1793438036,
       "overseas": {
         "api_ok": true,
         "sampled": 0,
         "playable": 0,
         "rate": 0.0,
         "reason": "no play url in feeds",
-        "ms": 632,
-        "checked_at": 1793422809
+        "ms": 260,
+        "checked_at": 1793438036
       },
       "history": [
         {
@@ -7480,6 +7945,11 @@
         },
         {
           "at": 1793422809,
+          "rate": 0.0,
+          "api_ok": true
+        },
+        {
+          "at": 1793438036,
           "rate": 0.0,
           "api_ok": true
         }
@@ -7491,15 +7961,15 @@
       "api": "http://ffzy.tv/api.php/provide/vod",
       "first_seen": 1793226491,
       "last_ok": null,
-      "last_fail": 1793422809,
+      "last_fail": 1793438036,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
+        "sampled": 8,
         "playable": 0,
         "rate": 0.0,
         "reason": "all sampled streams dead",
-        "ms": 5693,
-        "checked_at": 1793422809
+        "ms": 10353,
+        "checked_at": 1793438036
       },
       "history": [
         {
@@ -7551,6 +8021,11 @@
           "at": 1793422809,
           "rate": 0.0,
           "api_ok": true
+        },
+        {
+          "at": 1793438036,
+          "rate": 0.0,
+          "api_ok": true
         }
       ]
     },
@@ -7560,15 +8035,15 @@
       "api": "http://cj.ffzyapi.com//api.php/provide/vod",
       "first_seen": 1793226491,
       "last_ok": null,
-      "last_fail": 1793422809,
+      "last_fail": 1793438036,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
+        "sampled": 8,
         "playable": 0,
         "rate": 0.0,
         "reason": "all sampled streams dead",
-        "ms": 4770,
-        "checked_at": 1793422809
+        "ms": 11199,
+        "checked_at": 1793438036
       },
       "history": [
         {
@@ -7620,6 +8095,11 @@
           "at": 1793422809,
           "rate": 0.0,
           "api_ok": true
+        },
+        {
+          "at": 1793438036,
+          "rate": 0.0,
+          "api_ok": true
         }
       ]
     },
@@ -7629,15 +8109,15 @@
       "api": "http://www.ffzy.tv/api.php/provide/vod/form/ffm3u8",
       "first_seen": 1793226491,
       "last_ok": null,
-      "last_fail": 1793422809,
+      "last_fail": 1793438036,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
+        "sampled": 8,
         "playable": 0,
         "rate": 0.0,
         "reason": "all sampled streams dead",
-        "ms": 5411,
-        "checked_at": 1793422809
+        "ms": 10798,
+        "checked_at": 1793438036
       },
       "history": [
         {
@@ -7689,6 +8169,11 @@
           "at": 1793422809,
           "rate": 0.0,
           "api_ok": true
+        },
+        {
+          "at": 1793438036,
+          "rate": 0.0,
+          "api_ok": true
         }
       ]
     },
@@ -7698,15 +8183,15 @@
       "api": "https://cj.10010888.xyz/api.php/provide/vod",
       "first_seen": 1793251099,
       "last_ok": null,
-      "last_fail": 1793422809,
+      "last_fail": 1793438036,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
+        "sampled": 8,
         "playable": 0,
         "rate": 0.0,
         "reason": "all sampled streams dead",
-        "ms": 7577,
-        "checked_at": 1793422809
+        "ms": 7009,
+        "checked_at": 1793438036
       },
       "history": [
         {
@@ -7751,6 +8236,11 @@
         },
         {
           "at": 1793422809,
+          "rate": 0.0,
+          "api_ok": true
+        },
+        {
+          "at": 1793438036,
           "rate": 0.0,
           "api_ok": true
         }
@@ -7762,15 +8252,15 @@
       "api": "https://xsd.sdzyapi.com/api.php/provide/vod",
       "first_seen": 1793251099,
       "last_ok": null,
-      "last_fail": 1793422809,
+      "last_fail": 1793438036,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
+        "sampled": 8,
         "playable": 0,
         "rate": 0.0,
         "reason": "all sampled streams dead",
-        "ms": 1110,
-        "checked_at": 1793422809
+        "ms": 713,
+        "checked_at": 1793438036
       },
       "history": [
         {
@@ -7817,6 +8307,11 @@
           "at": 1793422809,
           "rate": 0.0,
           "api_ok": true
+        },
+        {
+          "at": 1793438036,
+          "rate": 0.0,
+          "api_ok": true
         }
       ]
     },
@@ -7826,15 +8321,15 @@
       "api": "http://ffzy3.tv/api.php/provide/vod",
       "first_seen": 1793251099,
       "last_ok": null,
-      "last_fail": 1793422809,
+      "last_fail": 1793438036,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
+        "sampled": 8,
         "playable": 0,
         "rate": 0.0,
         "reason": "all sampled streams dead",
-        "ms": 6005,
-        "checked_at": 1793422809
+        "ms": 10348,
+        "checked_at": 1793438036
       },
       "history": [
         {
@@ -7881,6 +8376,11 @@
           "at": 1793422809,
           "rate": 0.0,
           "api_ok": true
+        },
+        {
+          "at": 1793438036,
+          "rate": 0.0,
+          "api_ok": true
         }
       ]
     },
@@ -7890,15 +8390,15 @@
       "api": "http://ffzy4.tv/api.php/provide/vod",
       "first_seen": 1793251099,
       "last_ok": null,
-      "last_fail": 1793422809,
+      "last_fail": 1793438036,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
+        "sampled": 8,
         "playable": 0,
         "rate": 0.0,
         "reason": "all sampled streams dead",
-        "ms": 4586,
-        "checked_at": 1793422809
+        "ms": 10166,
+        "checked_at": 1793438036
       },
       "history": [
         {
@@ -7945,6 +8445,11 @@
           "at": 1793422809,
           "rate": 0.0,
           "api_ok": true
+        },
+        {
+          "at": 1793438036,
+          "rate": 0.0,
+          "api_ok": true
         }
       ]
     },
@@ -7954,15 +8459,15 @@
       "api": "http://www.lzzy.tv/api.php/provide/vod",
       "first_seen": 1793251099,
       "last_ok": null,
-      "last_fail": 1793422809,
+      "last_fail": 1793438036,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
+        "sampled": 8,
         "playable": 0,
         "rate": 0.0,
         "reason": "all sampled streams dead",
-        "ms": 1553,
-        "checked_at": 1793422809
+        "ms": 4688,
+        "checked_at": 1793438036
       },
       "history": [
         {
@@ -8009,6 +8514,11 @@
           "at": 1793422809,
           "rate": 0.0,
           "api_ok": true
+        },
+        {
+          "at": 1793438036,
+          "rate": 0.0,
+          "api_ok": true
         }
       ]
     },
@@ -8018,15 +8528,15 @@
       "api": "http://ffzy5.tv/api.php/provide/vod",
       "first_seen": 1793251099,
       "last_ok": null,
-      "last_fail": 1793422809,
+      "last_fail": 1793438036,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
+        "sampled": 8,
         "playable": 0,
         "rate": 0.0,
         "reason": "all sampled streams dead",
-        "ms": 4429,
-        "checked_at": 1793422809
+        "ms": 10277,
+        "checked_at": 1793438036
       },
       "history": [
         {
@@ -8073,6 +8583,11 @@
           "at": 1793422809,
           "rate": 0.0,
           "api_ok": true
+        },
+        {
+          "at": 1793438036,
+          "rate": 0.0,
+          "api_ok": true
         }
       ]
     },
@@ -8082,15 +8597,15 @@
       "api": "https://lzizy4.com/api.php/provide/vod",
       "first_seen": 1793251099,
       "last_ok": null,
-      "last_fail": 1793422809,
+      "last_fail": 1793438036,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
+        "sampled": 8,
         "playable": 0,
         "rate": 0.0,
         "reason": "all sampled streams dead",
-        "ms": 1714,
-        "checked_at": 1793422809
+        "ms": 4779,
+        "checked_at": 1793438036
       },
       "history": [
         {
@@ -8137,6 +8652,11 @@
           "at": 1793422809,
           "rate": 0.0,
           "api_ok": true
+        },
+        {
+          "at": 1793438036,
+          "rate": 0.0,
+          "api_ok": true
         }
       ]
     },
@@ -8146,15 +8666,15 @@
       "api": "https://lzizy8.com/api.php/provide/vod",
       "first_seen": 1793251099,
       "last_ok": null,
-      "last_fail": 1793422809,
+      "last_fail": 1793438036,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
+        "sampled": 8,
         "playable": 0,
         "rate": 0.0,
         "reason": "all sampled streams dead",
-        "ms": 1692,
-        "checked_at": 1793422809
+        "ms": 4599,
+        "checked_at": 1793438036
       },
       "history": [
         {
@@ -8199,6 +8719,11 @@
         },
         {
           "at": 1793422809,
+          "rate": 0.0,
+          "api_ok": true
+        },
+        {
+          "at": 1793438036,
           "rate": 0.0,
           "api_ok": true
         }
@@ -8210,15 +8735,15 @@
       "api": "https://lzizy2.com/api.php/provide/vod",
       "first_seen": 1793251099,
       "last_ok": null,
-      "last_fail": 1793422809,
+      "last_fail": 1793438036,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
+        "sampled": 8,
         "playable": 0,
         "rate": 0.0,
         "reason": "all sampled streams dead",
-        "ms": 1881,
-        "checked_at": 1793422809
+        "ms": 4625,
+        "checked_at": 1793438036
       },
       "history": [
         {
@@ -8265,6 +8790,11 @@
           "at": 1793422809,
           "rate": 0.0,
           "api_ok": true
+        },
+        {
+          "at": 1793438036,
+          "rate": 0.0,
+          "api_ok": true
         }
       ]
     },
@@ -8274,15 +8804,15 @@
       "api": "https://lzizy5.com/api.php/provide/vod",
       "first_seen": 1793251099,
       "last_ok": null,
-      "last_fail": 1793422809,
+      "last_fail": 1793438036,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
+        "sampled": 8,
         "playable": 0,
         "rate": 0.0,
         "reason": "all sampled streams dead",
-        "ms": 1609,
-        "checked_at": 1793422809
+        "ms": 4615,
+        "checked_at": 1793438036
       },
       "history": [
         {
@@ -8329,6 +8859,11 @@
           "at": 1793422809,
           "rate": 0.0,
           "api_ok": true
+        },
+        {
+          "at": 1793438036,
+          "rate": 0.0,
+          "api_ok": true
         }
       ]
     },
@@ -8338,15 +8873,15 @@
       "api": "http://lzizy.net/api.php/provide/vod",
       "first_seen": 1793251099,
       "last_ok": null,
-      "last_fail": 1793422809,
+      "last_fail": 1793438036,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
+        "sampled": 8,
         "playable": 0,
         "rate": 0.0,
         "reason": "all sampled streams dead",
-        "ms": 1584,
-        "checked_at": 1793422809
+        "ms": 4572,
+        "checked_at": 1793438036
       },
       "history": [
         {
@@ -8393,6 +8928,11 @@
           "at": 1793422809,
           "rate": 0.0,
           "api_ok": true
+        },
+        {
+          "at": 1793438036,
+          "rate": 0.0,
+          "api_ok": true
         }
       ]
     },
@@ -8402,15 +8942,15 @@
       "api": "https://lzizy3.com/api.php/provide/vod",
       "first_seen": 1793251099,
       "last_ok": null,
-      "last_fail": 1793422809,
+      "last_fail": 1793438036,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
+        "sampled": 8,
         "playable": 0,
         "rate": 0.0,
         "reason": "all sampled streams dead",
-        "ms": 1799,
-        "checked_at": 1793422809
+        "ms": 4835,
+        "checked_at": 1793438036
       },
       "history": [
         {
@@ -8457,6 +8997,11 @@
           "at": 1793422809,
           "rate": 0.0,
           "api_ok": true
+        },
+        {
+          "at": 1793438036,
+          "rate": 0.0,
+          "api_ok": true
         }
       ]
     },
@@ -8465,16 +9010,16 @@
       "name": "自动发现·api.apiyhzy.com",
       "api": "https://api.apiyhzy.com/api.php/provide/vod",
       "first_seen": 1793251099,
-      "last_ok": 1793422811,
+      "last_ok": 1793438036,
       "last_fail": null,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
-        "playable": 3,
+        "sampled": 8,
+        "playable": 8,
         "rate": 1.0,
         "reason": "",
-        "ms": 5529,
-        "checked_at": 1793422811
+        "ms": 5137,
+        "checked_at": 1793438036
       },
       "history": [
         {
@@ -8519,6 +9064,11 @@
         },
         {
           "at": 1793422811,
+          "rate": 1.0,
+          "api_ok": true
+        },
+        {
+          "at": 1793438036,
           "rate": 1.0,
           "api_ok": true
         }
@@ -8530,15 +9080,15 @@
       "api": "https://zuidazy.co/api.php/provide/vod",
       "first_seen": 1793251099,
       "last_ok": null,
-      "last_fail": 1793422811,
+      "last_fail": 1793438036,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
+        "sampled": 8,
         "playable": 0,
         "rate": 0.0,
         "reason": "all sampled streams dead",
-        "ms": 1085,
-        "checked_at": 1793422811
+        "ms": 630,
+        "checked_at": 1793438036
       },
       "history": [
         {
@@ -8585,6 +9135,11 @@
           "at": 1793422811,
           "rate": 0.0,
           "api_ok": true
+        },
+        {
+          "at": 1793438036,
+          "rate": 0.0,
+          "api_ok": true
         }
       ]
     },
@@ -8593,16 +9148,16 @@
       "name": "自动发现·www.mdzyapi.com",
       "api": "https://www.mdzyapi.com/api.php/provide/vod",
       "first_seen": 1793251099,
-      "last_ok": 1793422811,
+      "last_ok": 1793438036,
       "last_fail": null,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
-        "playable": 3,
+        "sampled": 8,
+        "playable": 8,
         "rate": 1.0,
         "reason": "",
-        "ms": 4438,
-        "checked_at": 1793422811
+        "ms": 5981,
+        "checked_at": 1793438036
       },
       "history": [
         {
@@ -8647,6 +9202,11 @@
         },
         {
           "at": 1793422811,
+          "rate": 1.0,
+          "api_ok": true
+        },
+        {
+          "at": 1793438036,
           "rate": 1.0,
           "api_ok": true
         }
@@ -8658,15 +9218,15 @@
       "api": "https://niuniuzy3.com/api.php/provide/vod",
       "first_seen": 1793251099,
       "last_ok": null,
-      "last_fail": 1793422811,
+      "last_fail": 1793438036,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
+        "sampled": 8,
         "playable": 0,
         "rate": 0.0,
         "reason": "all sampled streams dead",
-        "ms": 1123,
-        "checked_at": 1793422811
+        "ms": 631,
+        "checked_at": 1793438036
       },
       "history": [
         {
@@ -8713,6 +9273,11 @@
           "at": 1793422811,
           "rate": 0.0,
           "api_ok": true
+        },
+        {
+          "at": 1793438036,
+          "rate": 0.0,
+          "api_ok": true
         }
       ]
     },
@@ -8722,15 +9287,15 @@
       "api": "https://api.ukuapi88.com/api.php/provide/vod",
       "first_seen": 1793251099,
       "last_ok": null,
-      "last_fail": 1793422811,
+      "last_fail": 1793438036,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
+        "sampled": 8,
         "playable": 0,
         "rate": 0.0,
         "reason": "all sampled streams dead",
-        "ms": 4030,
-        "checked_at": 1793422811
+        "ms": 8601,
+        "checked_at": 1793438036
       },
       "history": [
         {
@@ -8775,6 +9340,11 @@
         },
         {
           "at": 1793422811,
+          "rate": 0.0,
+          "api_ok": true
+        },
+        {
+          "at": 1793438036,
           "rate": 0.0,
           "api_ok": true
         }
@@ -8786,15 +9356,15 @@
       "api": "https://91av.cyou/api.php/provide/vod",
       "first_seen": 1793251099,
       "last_ok": null,
-      "last_fail": 1793422811,
+      "last_fail": 1793438036,
       "overseas": {
         "api_ok": true,
         "sampled": 0,
         "playable": 0,
         "rate": 0.0,
         "reason": "no play url in feeds",
-        "ms": 985,
-        "checked_at": 1793422811
+        "ms": 820,
+        "checked_at": 1793438036
       },
       "history": [
         {
@@ -8839,6 +9409,11 @@
         },
         {
           "at": 1793422811,
+          "rate": 0.0,
+          "api_ok": true
+        },
+        {
+          "at": 1793438036,
           "rate": 0.0,
           "api_ok": true
         }
@@ -8850,15 +9425,15 @@
       "api": "https://zuidazy.me/api.php/provide/vod",
       "first_seen": 1793251099,
       "last_ok": null,
-      "last_fail": 1793422811,
+      "last_fail": 1793438036,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
+        "sampled": 8,
         "playable": 0,
         "rate": 0.0,
         "reason": "all sampled streams dead",
-        "ms": 971,
-        "checked_at": 1793422811
+        "ms": 509,
+        "checked_at": 1793438036
       },
       "history": [
         {
@@ -8903,6 +9478,11 @@
         },
         {
           "at": 1793422811,
+          "rate": 0.0,
+          "api_ok": true
+        },
+        {
+          "at": 1793438036,
           "rate": 0.0,
           "api_ok": true
         }
@@ -8914,15 +9494,15 @@
       "api": "https://ty.tyyszy5.com/api.php/provide/vod",
       "first_seen": 1793251099,
       "last_ok": null,
-      "last_fail": 1793422811,
+      "last_fail": 1793438036,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
+        "sampled": 8,
         "playable": 0,
         "rate": 0.0,
         "reason": "all sampled streams dead",
-        "ms": 1982,
-        "checked_at": 1793422811
+        "ms": 2077,
+        "checked_at": 1793438036
       },
       "history": [
         {
@@ -8969,6 +9549,11 @@
           "at": 1793422811,
           "rate": 0.0,
           "api_ok": true
+        },
+        {
+          "at": 1793438036,
+          "rate": 0.0,
+          "api_ok": true
         }
       ]
     },
@@ -8978,15 +9563,15 @@
       "api": "https://api.zeqaht.com/api.php/provide/vod",
       "first_seen": 1793251099,
       "last_ok": null,
-      "last_fail": 1793422812,
+      "last_fail": 1793438036,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
+        "sampled": 8,
         "playable": 0,
         "rate": 0.0,
         "reason": "all sampled streams dead",
-        "ms": 4039,
-        "checked_at": 1793422812
+        "ms": 2629,
+        "checked_at": 1793438036
       },
       "history": [
         {
@@ -9033,6 +9618,11 @@
           "at": 1793422812,
           "rate": 0.0,
           "api_ok": true
+        },
+        {
+          "at": 1793438036,
+          "rate": 0.0,
+          "api_ok": true
         }
       ]
     },
@@ -9042,15 +9632,15 @@
       "api": "https://yayazy2.com/api.php/provide/vod",
       "first_seen": 1793251099,
       "last_ok": null,
-      "last_fail": 1793422830,
+      "last_fail": 1793438036,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
+        "sampled": 8,
         "playable": 0,
         "rate": 0.0,
         "reason": "all sampled streams dead",
-        "ms": 21530,
-        "checked_at": 1793422830
+        "ms": 939,
+        "checked_at": 1793438036
       },
       "history": [
         {
@@ -9097,6 +9687,11 @@
           "at": 1793422830,
           "rate": 0.0,
           "api_ok": true
+        },
+        {
+          "at": 1793438036,
+          "rate": 0.0,
+          "api_ok": true
         }
       ]
     },
@@ -9105,16 +9700,16 @@
       "name": "自动发现·360zy.tv",
       "api": "https://360zy.tv/api.php/provide/vod",
       "first_seen": 1793251104,
-      "last_ok": 1793422830,
+      "last_ok": 1793438061,
       "last_fail": null,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
-        "playable": 3,
+        "sampled": 8,
+        "playable": 8,
         "rate": 1.0,
         "reason": "",
-        "ms": 13525,
-        "checked_at": 1793422830
+        "ms": 40936,
+        "checked_at": 1793438061
       },
       "history": [
         {
@@ -9161,6 +9756,11 @@
           "at": 1793422830,
           "rate": 1.0,
           "api_ok": true
+        },
+        {
+          "at": 1793438061,
+          "rate": 1.0,
+          "api_ok": true
         }
       ]
     },
@@ -9169,16 +9769,16 @@
       "name": "自动发现·www.moduzy.com",
       "api": "https://www.moduzy.com/api.php/provide/vod",
       "first_seen": 1793277882,
-      "last_ok": 1793422830,
+      "last_ok": 1793438061,
       "last_fail": null,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
-        "playable": 3,
+        "sampled": 8,
+        "playable": 8,
         "rate": 1.0,
         "reason": "",
-        "ms": 4577,
-        "checked_at": 1793422830
+        "ms": 6147,
+        "checked_at": 1793438061
       },
       "history": [
         {
@@ -9215,6 +9815,11 @@
           "at": 1793422830,
           "rate": 1.0,
           "api_ok": true
+        },
+        {
+          "at": 1793438061,
+          "rate": 1.0,
+          "api_ok": true
         }
       ]
     },
@@ -9223,16 +9828,16 @@
       "name": "自动发现·360zy.com",
       "api": "https://360zy.com/api.php/provide/vod",
       "first_seen": 1793352673,
-      "last_ok": 1793422830,
+      "last_ok": 1793438062,
       "last_fail": null,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
-        "playable": 3,
+        "sampled": 8,
+        "playable": 8,
         "rate": 1.0,
         "reason": "",
-        "ms": 15452,
-        "checked_at": 1793422830
+        "ms": 41648,
+        "checked_at": 1793438062
       },
       "history": [
         {
@@ -9252,6 +9857,11 @@
         },
         {
           "at": 1793422830,
+          "rate": 1.0,
+          "api_ok": true
+        },
+        {
+          "at": 1793438062,
           "rate": 1.0,
           "api_ok": true
         }
@@ -9263,15 +9873,15 @@
       "api": "https://vnzyz.com/api.php/provide/vod",
       "first_seen": 1793352673,
       "last_ok": null,
-      "last_fail": 1793422830,
+      "last_fail": 1793438062,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
+        "sampled": 8,
         "playable": 0,
         "rate": 0.0,
         "reason": "all sampled streams dead",
-        "ms": 1363,
-        "checked_at": 1793422830
+        "ms": 1407,
+        "checked_at": 1793438062
       },
       "history": [
         {
@@ -9293,6 +9903,11 @@
           "at": 1793422830,
           "rate": 0.0,
           "api_ok": true
+        },
+        {
+          "at": 1793438062,
+          "rate": 0.0,
+          "api_ok": true
         }
       ]
     },
@@ -9301,16 +9916,16 @@
       "name": "自动发现·apilsbzy1.com",
       "api": "https://apilsbzy1.com/api.php/provide/vod",
       "first_seen": 1793352673,
-      "last_ok": 1793422830,
+      "last_ok": 1793438062,
       "last_fail": null,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
-        "playable": 3,
+        "sampled": 8,
+        "playable": 8,
         "rate": 1.0,
         "reason": "",
-        "ms": 2888,
-        "checked_at": 1793422830
+        "ms": 1706,
+        "checked_at": 1793438062
       },
       "history": [
         {
@@ -9332,6 +9947,11 @@
           "at": 1793422830,
           "rate": 1.0,
           "api_ok": true
+        },
+        {
+          "at": 1793438062,
+          "rate": 1.0,
+          "api_ok": true
         }
       ]
     },
@@ -9340,16 +9960,16 @@
       "name": "自动发现·360zyzz.com",
       "api": "https://360zyzz.com/api.php/provide/vod",
       "first_seen": 1793352673,
-      "last_ok": 1793422830,
+      "last_ok": 1793438062,
       "last_fail": null,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
-        "playable": 3,
+        "sampled": 8,
+        "playable": 8,
         "rate": 1.0,
         "reason": "",
-        "ms": 14577,
-        "checked_at": 1793422830
+        "ms": 35381,
+        "checked_at": 1793438062
       },
       "history": [
         {
@@ -9371,6 +9991,11 @@
           "at": 1793422830,
           "rate": 1.0,
           "api_ok": true
+        },
+        {
+          "at": 1793438062,
+          "rate": 1.0,
+          "api_ok": true
         }
       ]
     },
@@ -9380,15 +10005,15 @@
       "api": "https://jyzyapi.com/api.php/provide/vod",
       "first_seen": 1793352673,
       "last_ok": 1793352673,
-      "last_fail": 1793422830,
+      "last_fail": 1793438062,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
+        "sampled": 8,
         "playable": 0,
         "rate": 0.0,
         "reason": "all sampled streams dead",
-        "ms": 3021,
-        "checked_at": 1793422830
+        "ms": 8150,
+        "checked_at": 1793438062
       },
       "history": [
         {
@@ -9410,6 +10035,11 @@
           "at": 1793422830,
           "rate": 0.0,
           "api_ok": true
+        },
+        {
+          "at": 1793438062,
+          "rate": 0.0,
+          "api_ok": true
         }
       ]
     },
@@ -9418,16 +10048,16 @@
       "name": "自动发现·caiji.maotaizy.cc",
       "api": "https://caiji.maotaizy.cc/api.php/provide/vod/at/josn",
       "first_seen": 1793352673,
-      "last_ok": 1793422862,
+      "last_ok": 1793438062,
       "last_fail": null,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
-        "playable": 1,
-        "rate": 0.333,
+        "sampled": 8,
+        "playable": 4,
+        "rate": 0.5,
         "reason": "",
-        "ms": 46811,
-        "checked_at": 1793422862
+        "ms": 33586,
+        "checked_at": 1793438062
       },
       "history": [
         {
@@ -9449,6 +10079,11 @@
           "at": 1793422862,
           "rate": 0.333,
           "api_ok": true
+        },
+        {
+          "at": 1793438062,
+          "rate": 0.5,
+          "api_ok": true
         }
       ]
     },
@@ -9457,16 +10092,16 @@
       "name": "自动发现·apidanaizi.com",
       "api": "https://apidanaizi.com/api.php/provide/vod",
       "first_seen": 1793398233,
-      "last_ok": 1793422862,
+      "last_ok": 1793438062,
       "last_fail": null,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
-        "playable": 3,
+        "sampled": 8,
+        "playable": 8,
         "rate": 1.0,
         "reason": "",
-        "ms": 3425,
-        "checked_at": 1793422862
+        "ms": 2362,
+        "checked_at": 1793438062
       },
       "history": [
         {
@@ -9476,6 +10111,11 @@
         },
         {
           "at": 1793422862,
+          "rate": 1.0,
+          "api_ok": true
+        },
+        {
+          "at": 1793438062,
           "rate": 1.0,
           "api_ok": true
         }
@@ -9487,15 +10127,15 @@
       "api": "http://www.zitv.cc/api.php/provide/vod",
       "first_seen": 1793398233,
       "last_ok": null,
-      "last_fail": 1793422862,
+      "last_fail": 1793438062,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
+        "sampled": 8,
         "playable": 0,
         "rate": 0.0,
         "reason": "all sampled streams dead",
-        "ms": 2500,
-        "checked_at": 1793422862
+        "ms": 10179,
+        "checked_at": 1793438062
       },
       "history": [
         {
@@ -9505,6 +10145,11 @@
         },
         {
           "at": 1793422862,
+          "rate": 0.0,
+          "api_ok": true
+        },
+        {
+          "at": 1793438062,
           "rate": 0.0,
           "api_ok": true
         }
@@ -9516,15 +10161,15 @@
       "api": "http://ffzy1.tv/api.php/provide/vod",
       "first_seen": 1793398233,
       "last_ok": null,
-      "last_fail": 1793422862,
+      "last_fail": 1793438062,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
+        "sampled": 8,
         "playable": 0,
         "rate": 0.0,
         "reason": "all sampled streams dead",
-        "ms": 5741,
-        "checked_at": 1793422862
+        "ms": 11412,
+        "checked_at": 1793438062
       },
       "history": [
         {
@@ -9534,6 +10179,11 @@
         },
         {
           "at": 1793422862,
+          "rate": 0.0,
+          "api_ok": true
+        },
+        {
+          "at": 1793438062,
           "rate": 0.0,
           "api_ok": true
         }
@@ -9545,15 +10195,15 @@
       "api": "https://lzizy1.com/api.php/provide/vod",
       "first_seen": 1793398233,
       "last_ok": null,
-      "last_fail": 1793422862,
+      "last_fail": 1793438062,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
+        "sampled": 8,
         "playable": 0,
         "rate": 0.0,
         "reason": "all sampled streams dead",
-        "ms": 1863,
-        "checked_at": 1793422862
+        "ms": 4743,
+        "checked_at": 1793438062
       },
       "history": [
         {
@@ -9563,6 +10213,11 @@
         },
         {
           "at": 1793422862,
+          "rate": 0.0,
+          "api_ok": true
+        },
+        {
+          "at": 1793438062,
           "rate": 0.0,
           "api_ok": true
         }
@@ -9573,16 +10228,16 @@
       "name": "自动发现·app.bfzyapi.com",
       "api": "https://app.bfzyapi.com/api.php/provide/vod",
       "first_seen": 1793398233,
-      "last_ok": 1793422862,
+      "last_ok": 1793438062,
       "last_fail": null,
       "overseas": {
         "api_ok": true,
-        "sampled": 3,
-        "playable": 1,
-        "rate": 0.333,
+        "sampled": 8,
+        "playable": 5,
+        "rate": 0.625,
         "reason": "",
-        "ms": 15992,
-        "checked_at": 1793422862
+        "ms": 13402,
+        "checked_at": 1793438062
       },
       "history": [
         {
@@ -9593,6 +10248,11 @@
         {
           "at": 1793422862,
           "rate": 0.333,
+          "api_ok": true
+        },
+        {
+          "at": 1793438062,
+          "rate": 0.625,
           "api_ok": true
         }
       ]
